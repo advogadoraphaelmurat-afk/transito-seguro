@@ -1,0 +1,20 @@
+services:
+  # O Servidor Backend (NestJS)
+  - type: web
+    name: transito-seguro-api
+    env: node
+    rootDir: App/backend
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npx prisma migrate deploy && node dist/main.js
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: transito-seguro-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+
+  # O Banco de Dados (PostgreSQL)
+  - type: pgo
+    name: transito-seguro-db
+    plan: free

@@ -1,0 +1,14 @@
+#!/bin/bash
+# Script para baixar o Flutter SDK e compilar para Web na Vercel
+
+echo "Instalando Flutter..."
+git clone https://github.com/flutter/flutter.git -b stable
+export PATH="$PATH:`pwd`/flutter/bin"
+
+echo "Rodando pub get..."
+flutter pub get
+
+echo "Compilando Flutter Web..."
+flutter build web --release
+
+# O resultado ficará na pasta build/web
