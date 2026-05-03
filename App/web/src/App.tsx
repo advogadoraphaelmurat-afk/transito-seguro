@@ -10,7 +10,7 @@ import {
   TrendingUp,
   Download,
   Search,
-  PersonStanding
+  Clock
 } from 'lucide-react';
 import { 
   BarChart, 
@@ -44,42 +44,38 @@ function App() {
     <div className="dashboard-container">
       <aside className="sidebar">
         <div className="sidebar-header">
-          <TrafficCone size={32} color="#111111" />
+          <div style={{ background: '#4F46E5', padding: '6px', borderRadius: '8px', display: 'flex' }}>
+            <TrafficCone size={20} color="#FFFFFF" />
+          </div>
           <span>Cidade Viva</span>
-        </div>
-        
-        <div className="traffic-light-decor">
-          <div className="light-circle red on"></div>
-          <div className="light-circle yellow"></div>
-          <div className="light-circle green"></div>
         </div>
         
         <nav className="sidebar-nav">
           <div className="nav-item active">
-            <BarChart3 size={24} />
+            <BarChart3 size={18} />
             <span>Visão Geral</span>
           </div>
           <div className="nav-item">
-            <Users size={24} />
+            <Users size={18} />
             <span>Turmas</span>
           </div>
           <div className="nav-item">
-            <BookOpen size={24} />
+            <BookOpen size={18} />
             <span>Currículo</span>
           </div>
           <div className="nav-item">
-            <Award size={24} />
+            <Award size={18} />
             <span>XP & Missões</span>
           </div>
         </nav>
 
         <div style={{ marginTop: 'auto' }} className="sidebar-nav">
-          <div className="nav-item" style={{ background: '#FDFDFD' }}>
-            <Settings size={24} />
-            <span>Ajustes</span>
+          <div className="nav-item">
+            <Settings size={18} />
+            <span>Configurações</span>
           </div>
-          <div className="nav-item" style={{ background: '#111111', color: '#FDFDFD' }}>
-            <LogOut size={24} />
+          <div className="nav-item danger">
+            <LogOut size={18} />
             <span>Sair</span>
           </div>
         </div>
@@ -88,90 +84,97 @@ function App() {
       <main className="main-content">
         <header className="header">
           <div>
-            <h1>Painel Professor</h1>
-            <p>Controle Pedagógico de Trânsito</p>
+            <h1>Visão Geral da Escola</h1>
+            <p>Acompanhamento pedagógico das atividades de trânsito.</p>
           </div>
           <button className="btn-primary">
-            <Download size={20} />
-            Exportar Dados
+            <Download size={16} />
+            Exportar Relatório
           </button>
         </header>
 
         <div className="stats-grid">
           <div className="stat-card">
-            <span className="stat-label">🚦 Alunos Ativos</span>
-            <div className="led-display green">
-              <PersonStanding size={48} />
-              124
+            <span className="stat-label">Alunos Ativos</span>
+            <span className="stat-value">124</span>
+            <div className="stat-trend up">
+              <TrendingUp size={14} />
+              <span>+12% vs mês anterior</span>
             </div>
           </div>
           <div className="stat-card">
-            <span className="stat-label">⭐ Média de XP</span>
-            <div className="led-display red">
-               1450
+            <span className="stat-label">Média de Pontuação XP</span>
+            <span className="stat-value">1.450</span>
+            <div className="stat-trend up">
+              <TrendingUp size={14} />
+              <span>Consistente</span>
             </div>
           </div>
           <div className="stat-card">
-            <span className="stat-label">🛑 Missões Concluídas</span>
-            <div className="led-display green" style={{ color: '#FFD300', textShadow: '0 0 10px #FFD300, 0 0 20px #FFD300' }}>
-               87%
+            <span className="stat-label">Taxa de Conclusão</span>
+            <span className="stat-value">87%</span>
+            <div style={{ width: '100%', height: '6px', background: '#F3F4F6', borderRadius: '4px', marginTop: '8px', overflow: 'hidden' }}>
+              <div style={{ width: '87%', height: '100%', background: '#10B981', borderRadius: '4px' }}></div>
             </div>
           </div>
         </div>
 
-        <div className="crosswalk-divider"></div>
-
         <div className="data-grid">
           <div className="data-card">
-            <h3><TrendingUp size={24} color="#FDFDFD" /> Engajamento</h3>
+            <h3><BarChart3 size={18} color="#6B7280" /> Engajamento Semanal</h3>
             <div style={{ width: '100%', height: 260, marginTop: '1rem' }}>
               <ResponsiveContainer>
                 <AreaChart data={mockData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                  <CartesianGrid strokeDasharray="0" vertical={true} stroke="#111111" strokeWidth={2} />
-                  <XAxis dataKey="name" axisLine={{ stroke: '#111111', strokeWidth: 4 }} tickLine={false} tick={{fill: '#111111', fontWeight: 700}} dy={10} />
-                  <YAxis axisLine={{ stroke: '#111111', strokeWidth: 4 }} tickLine={false} tick={{fill: '#111111', fontWeight: 700}} />
+                  <defs>
+                    <linearGradient id="colorEng" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#4F46E5" stopOpacity={0.2}/>
+                      <stop offset="95%" stopColor="#4F46E5" stopOpacity={0}/>
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E5E7EB" />
+                  <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{fill: '#6B7280', fontSize: 12}} dy={10} />
+                  <YAxis axisLine={false} tickLine={false} tick={{fill: '#6B7280', fontSize: 12}} />
                   <Tooltip 
-                    contentStyle={{ borderRadius: '0', border: '6px solid #111111', boxShadow: '8px 8px 0px 0px #111111', fontWeight: 700 }}
+                    contentStyle={{ borderRadius: '8px', border: '1px solid #E5E7EB', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}
                   />
-                  <Area type="step" dataKey="engajamento" stroke="#111111" strokeWidth={6} fillOpacity={1} fill="#E32636" />
+                  <Area type="monotone" dataKey="engajamento" stroke="#4F46E5" strokeWidth={2} fillOpacity={1} fill="url(#colorEng)" />
                 </AreaChart>
               </ResponsiveContainer>
             </div>
           </div>
 
           <div className="data-card">
-            <h3><Award size={24} color="#FDFDFD" /> Conquistas</h3>
+            <h3><Award size={18} color="#6B7280" /> Missões Mais Populares</h3>
             <div style={{ width: '100%', height: 260, marginTop: '1rem' }}>
               <ResponsiveContainer>
                 <BarChart data={[
-                  { name: 'Cego', count: 45 },
-                  { name: 'Invest', count: 32 },
-                  { name: 'Protet', count: 24 },
+                  { name: 'Ponto Cego', count: 45 },
+                  { name: 'Investigador', count: 32 },
+                  { name: 'Protetor', count: 24 },
                 ]} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                  <CartesianGrid strokeDasharray="0" vertical={false} stroke="#111111" strokeWidth={2} />
-                  <XAxis dataKey="name" axisLine={{ stroke: '#111111', strokeWidth: 4 }} tickLine={false} tick={{fill: '#111111', fontWeight: 700}} dy={10} />
-                  <YAxis axisLine={{ stroke: '#111111', strokeWidth: 4 }} tickLine={false} tick={{fill: '#111111', fontWeight: 700}} />
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E5E7EB" />
+                  <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{fill: '#6B7280', fontSize: 12}} dy={10} />
+                  <YAxis axisLine={false} tickLine={false} tick={{fill: '#6B7280', fontSize: 12}} />
                   <Tooltip 
-                    cursor={{fill: '#FFD300'}}
-                    contentStyle={{ borderRadius: '0', border: '6px solid #111111', boxShadow: '8px 8px 0px 0px #111111', fontWeight: 700 }}
+                    cursor={{fill: '#F3F4F6'}}
+                    contentStyle={{ borderRadius: '8px', border: '1px solid #E5E7EB', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}
                   />
-                  <Bar dataKey="count" fill="#005A9C" stroke="#111111" strokeWidth={4} barSize={50} />
+                  <Bar dataKey="count" fill="#10B981" radius={[4, 4, 0, 0]} barSize={40} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
         </div>
 
-        <div className="data-card">
+        <div className="data-card" style={{ marginBottom: 0 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem', flexWrap: 'wrap', gap: '1rem' }}>
-            <h3><Users size={24} color="#FDFDFD" /> Registro Diário</h3>
+            <h3><Users size={18} color="#6B7280" /> Registro de Alunos</h3>
             <div style={{ position: 'relative' }}>
-              <Search size={24} color="#111111" style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)' }} />
+              <Search size={16} color="#9CA3AF" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
               <input 
                 type="text" 
-                placeholder="BUSCAR..." 
+                placeholder="Buscar por nome..." 
                 className="search-input"
-                style={{ paddingLeft: '3.5rem' }}
               />
             </div>
           </div>
@@ -179,23 +182,23 @@ function App() {
             <table>
               <thead>
                 <tr>
-                  <th>Identificação</th>
+                  <th>Nome do Aluno</th>
                   <th>Turma</th>
-                  <th>Pontuação XP</th>
-                  <th>Missão Atual</th>
+                  <th>Total de XP</th>
+                  <th>Módulo Atual</th>
                   <th>Situação</th>
                 </tr>
               </thead>
               <tbody>
                 {students.map(s => (
                   <tr key={s.id}>
-                    <td style={{ color: '#005A9C', fontSize: '1.2rem' }}>{s.name}</td>
-                    <td>{s.grade}</td>
-                    <td style={{ color: '#E32636' }}>{s.xp.toLocaleString('pt-BR')}</td>
+                    <td style={{ fontWeight: 500 }}>{s.name}</td>
+                    <td><span style={{ color: '#6B7280' }}>{s.grade}</span></td>
+                    <td style={{ fontWeight: 600, color: '#4F46E5' }}>{s.xp.toLocaleString('pt-BR')}</td>
                     <td>{s.mission}</td>
                     <td>
                       <span className={`badge ${s.status === 'Concluído' ? 'badge-success' : 'badge-warning'}`}>
-                        {s.status === 'Concluído' ? <CheckCircle2 size={16} /> : <TrafficCone size={16} />}
+                        {s.status === 'Concluído' ? <CheckCircle2 size={14} /> : <Clock size={14} />}
                         {s.status}
                       </span>
                     </td>
