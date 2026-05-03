@@ -1,8 +1,10 @@
 services:
-  # O Servidor Backend (NestJS)
+  # ═══════════════════════════════════════════════
+  # 1. BACKEND API (NestJS + Prisma)
+  # ═══════════════════════════════════════════════
   - type: web
     name: transito-seguro-api
-    env: node
+    runtime: node
     rootDir: App/backend
     buildCommand: npm install && npx prisma generate && npm run build
     startCommand: npx prisma migrate deploy && node dist/main.js
@@ -13,8 +15,33 @@ services:
           property: connectionString
       - key: JWT_SECRET
         generateValue: true
+      - key: NODE_ENV
+        value: production
+      - key: CORS_ORIGINS
+        value: https://transito-seguro-web.onrender.com,https://transito-seguro-app.onrender.com
 
-  # O Banco de Dados (PostgreSQL)
-  - type: pgo
-    name: transito-seguro-db
+  # ═══════════════════════════════════════════════
+  # 2. WEB DASHBOARD (React + Vite — Painel do Professor)
+  # ═══════════════════════════════════════════════
+  - type: web
+    name: transito-seguro-web
+    runtime: static
+    rootDir: App/web
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+databases:
+  # ═══════════════════════════════════════════════
+  # 3. BANCO DE DADOS (PostgreSQL)
+  # ═══════════════════════════════════════════════
+  - name: transito-seguro-db
     plan: free
+    databaseName: transito_seguro
