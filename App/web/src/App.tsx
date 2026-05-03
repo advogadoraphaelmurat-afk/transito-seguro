@@ -58,35 +58,29 @@ const students = [
 // Sequência real de semáforo: Verde → Amarelo → Vermelho → Amarelo → Verde
 // Amarelo aparece nas DUAS transições com duração igual e visível
 function TrafficLight() {
-  const [phase, setPhase] = useState<'red' | 'yellow' | 'green'>('green');
+  const [phase, setPhase] = useState<'green' | 'yellow1' | 'red' | 'yellow2'>('green');
 
   useEffect(() => {
-    const sequence: Array<['red' | 'yellow' | 'green', number]> = [
-      ['green',  4000],
-      ['yellow', 1500],
-      ['red',    4000],
-      ['yellow', 1500],
-    ];
-    
     let timer: ReturnType<typeof setTimeout>;
-    let currentIdx = 0;
+    
+    if (phase === 'green') {
+      timer = setTimeout(() => setPhase('yellow1'), 4000);
+    } else if (phase === 'yellow1') {
+      timer = setTimeout(() => setPhase('red'), 1500);
+    } else if (phase === 'red') {
+      timer = setTimeout(() => setPhase('yellow2'), 4000);
+    } else if (phase === 'yellow2') {
+      timer = setTimeout(() => setPhase('green'), 1500);
+    }
 
-    const tick = () => {
-      const [color, duration] = sequence[currentIdx];
-      setPhase(color);
-      currentIdx = (currentIdx + 1) % sequence.length;
-      timer = setTimeout(tick, duration);
-    };
-
-    tick();
     return () => clearTimeout(timer);
-  }, []);
+  }, [phase]);
 
   return (
     <div className="traffic-light">
-      <div className={`tl-bulb red    ${phase === 'red'    ? 'active' : ''}`} />
-      <div className={`tl-bulb yellow ${phase === 'yellow' ? 'active' : ''}`} />
-      <div className={`tl-bulb green  ${phase === 'green'  ? 'active' : ''}`} />
+      <div className={`tl-bulb red    ${phase === 'red' ? 'active' : ''}`} />
+      <div className={`tl-bulb yellow ${(phase === 'yellow1' || phase === 'yellow2') ? 'active' : ''}`} />
+      <div className={`tl-bulb green  ${phase === 'green' ? 'active' : ''}`} />
     </div>
   );
 }
