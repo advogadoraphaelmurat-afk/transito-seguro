@@ -1,6 +1,7 @@
 // v2.1.0 - Stable Build Trigger
 import { useState, useEffect } from 'react';
 import pedestre from './assets/pedestre.gif';
+import cinematicBg from './assets/cinematic_traffic_bg.png';
 import {
   Users,
   BookOpen,
@@ -124,7 +125,9 @@ export default function App() {
   );
 
   return (
-    <div className="dashboard-root">
+    <div className="dashboard-root" style={{ backgroundImage: `url(${cinematicBg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+      {/* Overlay escuro para garantir contraste e deixar as luzes brilharem */}
+      <div style={{ position: 'fixed', inset: 0, backgroundColor: 'rgba(5, 5, 8, 0.55)', zIndex: 0, pointerEvents: 'none' }} />
       {/* Faixa de trânsito animada no topo absoluto */}
       <div className="traffic-stripe-top" />
 
@@ -142,7 +145,7 @@ export default function App() {
         </button>
       </header>
 
-      <div className={`dashboard-container ${isSidebarOpen ? 'sidebar-open' : ''}`}>
+      <div className={`dashboard-container ${isSidebarOpen ? 'sidebar-open' : ''}`} style={{ position: 'relative', zIndex: 1 }}>
         {/* Overlay for mobile sidebar */}
         <div className="sidebar-overlay" onClick={() => setIsSidebarOpen(false)} />
         
