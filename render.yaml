@@ -27,7 +27,7 @@ services:
     name: transito-seguro-web
     runtime: static
     rootDir: App/web
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --legacy-peer-deps && npm run build
     staticPublishPath: dist
     headers:
       - path: /*
