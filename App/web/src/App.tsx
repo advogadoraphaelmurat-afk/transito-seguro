@@ -16,7 +16,9 @@ import {
   Shield,
   Zap,
   Map,
-  Bell
+  Bell,
+  Menu,
+  X
 } from 'lucide-react';
 import {
   AreaChart,
@@ -58,19 +60,17 @@ const students = [
 // Sequência real de semáforo: Verde → Amarelo → Vermelho → Amarelo → Verde
 // Amarelo aparece nas DUAS transições com duração igual e visível
 function TrafficLight() {
-  const [phase, setPhase] = useState<'green' | 'yellow1' | 'red' | 'yellow2'>('green');
+  const [phase, setPhase] = useState<'green' | 'yellow' | 'red'>('green');
 
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout>;
     
     if (phase === 'green') {
-      timer = setTimeout(() => setPhase('yellow1'), 4000);
-    } else if (phase === 'yellow1') {
+      timer = setTimeout(() => setPhase('yellow'), 4000);
+    } else if (phase === 'yellow') {
       timer = setTimeout(() => setPhase('red'), 1500);
     } else if (phase === 'red') {
-      timer = setTimeout(() => setPhase('yellow2'), 4000);
-    } else if (phase === 'yellow2') {
-      timer = setTimeout(() => setPhase('green'), 1500);
+      timer = setTimeout(() => setPhase('green'), 4000);
     }
 
     return () => clearTimeout(timer);
@@ -79,7 +79,7 @@ function TrafficLight() {
   return (
     <div className="traffic-light">
       <div className={`tl-bulb red    ${phase === 'red' ? 'active' : ''}`} />
-      <div className={`tl-bulb yellow ${(phase === 'yellow1' || phase === 'yellow2') ? 'active' : ''}`} />
+      <div className={`tl-bulb yellow ${phase === 'yellow' ? 'active' : ''}`} />
       <div className={`tl-bulb green  ${phase === 'green' ? 'active' : ''}`} />
     </div>
   );
@@ -115,6 +115,7 @@ function CustomTooltip({ active, payload, label }: any) {
 export default function App() {
   const [search, setSearch] = useState('');
   const [activeView, setActiveView] = useState('overview');
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const filtered = students.filter(s =>
     s.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -126,9 +127,26 @@ export default function App() {
       {/* Faixa de trânsito animada no topo absoluto */}
       <div className="traffic-stripe-top" />
 
-      <div className="dashboard-container">
+      <header className="mobile-header">
+        <div className="sidebar-logo" style={{ padding: 0, border: 'none', background: 'none' }}>
+          <div className="logo-icon">
+            <TrafficCone size={18} color="#0D0D0D" />
+          </div>
+          <div className="logo-text">
+            <div className="brand" style={{ color: '#1A1A1A' }}>Trânsito Seguro</div>
+          </div>
+        </div>
+        <button className="menu-toggle" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+          {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </header>
+
+      <div className={`dashboard-container ${isSidebarOpen ? 'sidebar-open' : ''}`}>
+        {/* Overlay for mobile sidebar */}
+        <div className="sidebar-overlay" onClick={() => setIsSidebarOpen(false)} />
+        
         {/* ══════════════════ SIDEBAR ══════════════════ */}
-        <aside className="sidebar">
+        <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
           <div className="sidebar-logo">
             <div className="logo-icon">
               <TrafficCone size={18} color="#0D0D0D" />
