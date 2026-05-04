@@ -1,3 +1,4 @@
+// v2.1.0 - Stable Build Trigger
 import { useState, useEffect } from 'react';
 import pedestre from './assets/pedestre.gif';
 import {
