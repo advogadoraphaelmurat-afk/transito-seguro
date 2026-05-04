@@ -1,0 +1,242 @@
+[
+  {
+    "question": "O que indica a luz amarela do semáforo?",
+    "options": ["Acelere para passar logo", "Atenção, o sinal vai fechar", "Pode passar tranquilamente", "Pare imediatamente"],
+    "correctIndex": 1,
+    "explanation": "A luz amarela serve para alertar o condutor que o direito de passagem está prestes a terminar."
+  },
+  {
+    "question": "Qual é a prioridade no trânsito urbano segundo o CTB?",
+    "options": ["Caminhões", "Carros particulares", "Motocicletas", "Pedestres e ciclistas"],
+    "correctIndex": 3,
+    "explanation": "O Código de Trânsito Brasileiro prioriza os veículos não motorizados e, sobre todos, o pedestre."
+  },
+  {
+    "question": "O que fazer ao ver um motociclista passando no corredor entre os carros?",
+    "options": ["Fechar a passagem", "Ignorar e manter a faixa", "Manter a distância segura e facilitar a passagem", "Buzinar para ele sair"],
+    "correctIndex": 2,
+    "explanation": "No trânsito, a gentileza e a segurança exigem facilitar a passagem e evitar acidentes."
+  },
+  {
+    "question": "Qual a distância lateral mínima de segurança ao ultrapassar um ciclista?",
+    "options": ["50 centímetros", "1 metro", "1,5 metro", "Não há distância mínima"],
+    "correctIndex": 2,
+    "explanation": "O CTB exige a distância de 1,5 metro para proteger o ciclista do deslocamento de ar e possíveis desequilíbrios."
+  },
+  {
+    "question": "Crianças devem ser transportadas na cadeirinha no banco de trás até qual idade?",
+    "options": ["Até 5 anos", "Até 7 anos e meio", "Até 10 anos", "Até 12 anos"],
+    "correctIndex": 2,
+    "explanation": "Até 10 anos, ou até atingir 1,45m de altura, as crianças devem usar dispositivos de retenção."
+  },
+  {
+    "question": "O que é o conceito 'Vision Zero'?",
+    "options": ["Zero multas aplicadas", "Zero trânsito na cidade", "Nenhuma morte no trânsito é aceitável", "Visão nula à noite"],
+    "correctIndex": 2,
+    "explanation": "Vision Zero é a premissa internacional de que todo acidente com morte pode ser evitado com bom desenho urbano e segurança."
+  },
+  {
+    "question": "Se não houver faixa de pedestre, como atravessar a rua?",
+    "options": ["Correr o mais rápido possível", "Atravessar em linha reta, em local com boa visibilidade", "Passar pelo meio dos carros", "Caminhar pela rua até o destino"],
+    "correctIndex": 1,
+    "explanation": "Deve-se atravessar na perpendicular, pelo caminho mais curto, certificando-se de que foi visto."
+  },
+  {
+    "question": "O capacete de moto só protege se estiver:",
+    "options": ["Sendo segurado na mão", "No cotovelo", "Apenas apoiado na cabeça", "Afivelado e com a viseira abaixada"],
+    "correctIndex": 3,
+    "explanation": "Um capacete solto voa em caso de acidente. A viseira protege os olhos de pedras e insetos."
+  },
+  {
+    "question": "Qual é a velocidade máxima permitida perto de escolas?",
+    "options": ["60 km/h", "50 km/h", "30 km/h ou 40 km/h (conforme placa)", "80 km/h"],
+    "correctIndex": 2,
+    "explanation": "Áreas escolares exigem redução drástica de velocidade para evitar atropelamentos fatais."
+  },
+  {
+    "question": "O que significa uma placa vermelha octogonal com a palavra PARE?",
+    "options": ["Reduza a velocidade", "Parecida com as outras", "Parada obrigatória", "Pode passar com atenção"],
+    "correctIndex": 2,
+    "explanation": "É a única placa com 8 lados. Significa que você deve imobilizar totalmente o veículo."
+  },
+  {
+    "question": "Ao descer do ônibus, o passageiro deve:",
+    "options": ["Atravessar pela frente do ônibus", "Atravessar por trás do ônibus", "Esperar o ônibus sair para ter visão total da rua", "Correr logo que descer"],
+    "correctIndex": 2,
+    "explanation": "O tamanho do ônibus bloqueia a visão. Aguardar ele partir garante que você veja e seja visto."
+  },
+  {
+    "question": "O que fazer se for presenciar um acidente sem vítimas (apenas danos materiais)?",
+    "options": ["Deixar os carros no meio da rua esperando a polícia", "Retirar os veículos da via para não atrapalhar", "Iniciar uma briga", "Fugir do local"],
+    "correctIndex": 1,
+    "explanation": "Segundo o CTB, se não houver vítimas, os veículos devem ser removidos para liberar o tráfego."
+  },
+  {
+    "question": "Por que não podemos usar o celular caminhando na rua?",
+    "options": ["Para economizar bateria", "Porque a tela quebra", "Retira a atenção visual e auditiva do trânsito", "Porque cansa a vista"],
+    "correctIndex": 2,
+    "explanation": "A desatenção ao caminhar é uma das grandes causas de atropelamentos urbanos."
+  },
+  {
+    "question": "A faixa de pedestres funciona como:",
+    "options": ["Um enfeite no asfalto", "Um acordo de segurança entre motorista e pedestre", "Lugar exclusivo para motos pararem", "Opcional para quem caminha"],
+    "correctIndex": 1,
+    "explanation": "Ela demarca onde o pedestre tem prioridade e onde o motorista deve sempre dar a preferência."
+  },
+  {
+    "question": "Se um carro for te dar carona e não tiver cinto atrás, você deve:",
+    "options": ["Ir mesmo assim", "Deitar no banco", "Não aceitar a carona e alertar o motorista", "Sentar no chão do carro"],
+    "correctIndex": 2,
+    "explanation": "O cinto salva vidas também no banco traseiro e é obrigatório."
+  },
+  {
+    "question": "Buzina deve ser usada:",
+    "options": ["Para cumprimentar amigos", "Para apressar o pedestre", "Apenas em toques breves para advertência e segurança", "Em frente a hospitais"],
+    "correctIndex": 2,
+    "explanation": "O uso indiscriminado da buzina causa estresse e poluição sonora. Só deve ser usada para evitar acidentes."
+  },
+  {
+    "question": "Qual atitude demonstra cidadania no trânsito?",
+    "options": ["Disputar corrida", "Dar preferência e agradecer", "Jogar lixo pela janela", "Estacionar em vaga de deficiente"],
+    "correctIndex": 1,
+    "explanation": "A empatia e o respeito mútuo são as bases do direito à cidade."
+  },
+  {
+    "question": "O que o pedestre deve fazer à noite para se proteger?",
+    "options": ["Usar roupas escuras para se esconder", "Andar pelo meio da rua", "Atravessar em locais iluminados e usar roupas claras", "Correr rápido no escuro"],
+    "correctIndex": 2,
+    "explanation": "Ser visto é ser salvo. Locais iluminados e roupas claras ajudam os motoristas a te enxergar."
+  },
+  {
+    "question": "O passeio (calçada) é de uso exclusivo de:",
+    "options": ["Pedestres", "Motocicletas", "Carros estacionados", "Ciclistas em alta velocidade"],
+    "correctIndex": 0,
+    "explanation": "Calçadas são o espaço sagrado e exclusivo do pedestre."
+  },
+  {
+    "question": "Quem tem preferência na rotatória se não houver placa?",
+    "options": ["Quem vem da direita", "Quem já está circulando por ela", "O veículo maior", "O veículo mais rápido"],
+    "correctIndex": 1,
+    "explanation": "A regra geral é dar preferência a quem já está inserido no anel da rotatória."
+  },
+  {
+    "question": "A faixa de pedestre sempre me dá o direito de não olhar para os lados?",
+    "options": ["Sim", "Não, a faixa não é um escudo mágico", "Só durante o dia", "Apenas se eu levantar a mão"],
+    "correctIndex": 1,
+    "explanation": "O pedestre tem preferência, mas nunca deve abrir mão de conferir visualmente se os carros pararam."
+  },
+  {
+    "question": "Em um acidente com vítima presa nas ferragens, quem deve ser chamado?",
+    "options": ["Apenas a polícia", "Bombeiros ou SAMU (193/192)", "O seguro do carro", "Um guincho privado"],
+    "correctIndex": 1,
+    "explanation": "Apenas equipes de resgate médico especializadas podem remover vítimas com segurança."
+  },
+  {
+    "question": "Por que idosos precisam de mais tempo para atravessar?",
+    "options": ["Porque gostam de parar", "Mobilidade e reflexos reduzidos", "Porque esquecem para onde vão", "Para testar a paciência dos motoristas"],
+    "correctIndex": 1,
+    "explanation": "Idosos podem ter limitações motoras ou visuais, necessitando de empatia e paciência dos motoristas."
+  },
+  {
+    "question": "Se beber álcool, o motorista pode dirigir apenas se:",
+    "options": ["Tomar café forte", "Tomar um banho frio", "Dirigir devagar", "Nunca. Se beber, não dirija."],
+    "correctIndex": 3,
+    "explanation": "Não há fórmula que elimine o álcool do sangue rapidamente. Tolerância zero no Brasil."
+  },
+  {
+    "question": "O cinto de segurança impede que o ocupante do veículo:",
+    "options": ["Converse com o motorista", "Durma na viagem", "Seja arremessado para fora em caso de impacto", "Sinta enjoo"],
+    "correctIndex": 2,
+    "explanation": "A física do impacto projeta o corpo para frente. O cinto é a única barreira de proteção vital."
+  },
+  {
+    "question": "O que significa uma placa redonda com borda vermelha e um número (ex: 60) no centro?",
+    "options": ["Velocidade mínima", "Velocidade máxima permitida", "Idade mínima para dirigir ali", "Distância até a próxima cidade"],
+    "correctIndex": 1,
+    "explanation": "Placas de regulamentação (redondas vermelhas) indicam obrigações ou proibições."
+  },
+  {
+    "question": "O que é 'Efeito Túnel' em relação à velocidade?",
+    "options": ["Entrar em um túnel escuro", "O vento fazer barulho no ouvido", "Perda da visão periférica ao dirigir muito rápido", "Ficar tonto no carro"],
+    "correctIndex": 2,
+    "explanation": "Quanto mais rápido o carro vai, mais estreito fica o campo de visão do motorista."
+  },
+  {
+    "question": "Em dia de chuva forte, o que o motorista deve fazer?",
+    "options": ["Acelerar para chegar logo", "Ligar o pisca-alerta e andar rápido", "Reduzir a velocidade e aumentar a distância do veículo da frente", "Desligar os faróis"],
+    "correctIndex": 2,
+    "explanation": "Pista molhada exige mais espaço para o carro parar (frenagem). Reduzir a velocidade evita aquaplanagem."
+  },
+  {
+    "question": "Animais de estimação em carros devem ser transportados:",
+    "options": ["No colo do motorista", "Com a cabeça na janela", "Soltos no banco de trás", "Com cinto específico ou caixa de transporte"],
+    "correctIndex": 3,
+    "explanation": "Animais soltos distraem o condutor e podem se machucar gravemente em frenagens bruscas."
+  },
+  {
+    "question": "O que é 'Direção Defensiva'?",
+    "options": ["Dirigir com um escudo", "Dirigir devagar apenas", "Prever situações de perigo e agir antecipadamente para evitar acidentes", "Brigar com outros motoristas"],
+    "correctIndex": 2,
+    "explanation": "É a técnica de dirigir de forma a evitar acidentes, apesar das ações erradas de terceiros ou condições adversas."
+  },
+  {
+    "question": "Qual é a função do encosto de cabeça no banco do carro?",
+    "options": ["Trazer conforto para dormir", "Proteção do pescoço (efeito chicote) em caso de colisão traseira", "Apoio para mochilas", "Apenas estética"],
+    "correctIndex": 1,
+    "explanation": "O encosto bem ajustado evita lesões graves na cervical em batidas por trás."
+  },
+  {
+    "question": "Pessoas com fone de ouvido na rua devem ter cuidado porque:",
+    "options": ["A música estraga o tímpano", "Isolam-se dos ruídos do trânsito (buzinas, sirenes, freios)", "Caminham mais devagar", "É proibido por lei andar de fone"],
+    "correctIndex": 1,
+    "explanation": "A audição é o segundo sentido mais importante no trânsito para detectar veículos se aproximando."
+  },
+  {
+    "question": "Para andar de bicicleta à noite, é imprescindível usar:",
+    "options": ["Capa de chuva preta", "Faróis, lanterna traseira e refletores", "Apenas capacete", "Pneus largos"],
+    "correctIndex": 1,
+    "explanation": "Bicicletas precisam estar visíveis para os motoristas de carros e ônibus."
+  },
+  {
+    "question": "O que fazer se um veículo de emergência (ambulância/bombeiro) com a sirene ligada se aproximar?",
+    "options": ["Acelerar na frente dele", "Ignorar e manter a faixa", "Deslocar o veículo para a direita da via e parar, se necessário", "Buzinar de volta"],
+    "correctIndex": 2,
+    "explanation": "Veículos em emergência têm prioridade absoluta de passagem para salvar vidas."
+  },
+  {
+    "question": "O Estatuto da Cidade prevê que as vias públicas devem priorizar:",
+    "options": ["A fluidez dos carros", "O transporte coletivo e os pedestres", "A construção de mais viadutos", "O lucro dos pedágios"],
+    "correctIndex": 1,
+    "explanation": "Cidades modernas focam na mobilidade ativa (pedestres/bikes) e no transporte público de massa."
+  },
+  {
+    "question": "Quem é considerado o usuário mais vulnerável do trânsito?",
+    "options": ["O caminhoneiro", "O motociclista", "O pedestre", "O motorista de carro esportivo"],
+    "correctIndex": 2,
+    "explanation": "Sem nenhuma armadura metálica ou de proteção (como capacete), o pedestre é o mais frágil na via."
+  },
+  {
+    "question": "Usar pisca-alerta com o carro em movimento é correto?",
+    "options": ["Sim, quando chove muito", "Não, só se usa com o veículo imobilizado ou situação de emergência prevista", "Sim, quando se tem pressa", "Sim, em neblina"],
+    "correctIndex": 1,
+    "explanation": "Usar em movimento (como na chuva) confunde os outros motoristas que podem achar que o carro está parado na pista."
+  },
+  {
+    "question": "O que indica a sinalização horizontal (pintura) de faixa contínua branca na via?",
+    "options": ["Que você pode mudar de faixa a qualquer momento", "Que a via é de mão dupla", "Proibição de ultrapassagem ou mudança de faixa", "Local para estacionar"],
+    "correctIndex": 2,
+    "explanation": "Faixa contínua significa que a manobra de mudança é perigosa e proibida naquele trecho."
+  },
+  {
+    "question": "Andar com celular na mão de bicicleta:",
+    "options": ["Pode, se for devagar", "Tira o controle da direção e o foco, sendo muito perigoso", "É recomendado para ver o GPS", "Desenvolve habilidades de equilíbrio"],
+    "correctIndex": 1,
+    "explanation": "Qualquer veículo exige as duas mãos para controle total e frenagem eficiente de emergência."
+  },
+  {
+    "question": "A faixa de retenção (pintura grossa antes do semáforo ou faixa de pedestres) serve para:",
+    "options": ["Marcar a chegada de uma corrida", "Indicar até onde o veículo deve parar", "Enfeitar o cruzamento", "Indicar local de parada de ônibus"],
+    "correctIndex": 1,
+    "explanation": "Ela delimita o espaço seguro para que o carro não avance sobre a faixa do pedestre ou o fluxo cruzado."
+  }
+]

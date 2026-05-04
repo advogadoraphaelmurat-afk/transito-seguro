@@ -1,0 +1,35 @@
+[
+  { "name": "Capacete de Ciclista Azul", "category": "AVATAR_HAT", "priceCoins": 150, "rarity": "Common" },
+  { "name": "Boné Cidade Viva", "category": "AVATAR_HAT", "priceCoins": 50, "rarity": "Common" },
+  { "name": "Capacete Profissional Moto", "category": "AVATAR_HAT", "priceCoins": 500, "rarity": "Epic" },
+  { "name": "Capacete Cibernético", "category": "AVATAR_HAT", "priceCoins": 800, "rarity": "Legendary" },
+  { "name": "Chapéu de Guarda de Trânsito", "category": "AVATAR_HAT", "priceCoins": 250, "rarity": "Rare" },
+  { "name": "Gorro Refletivo de Neve", "category": "AVATAR_HAT", "priceCoins": 300, "rarity": "Epic" },
+  { "name": "Capacete Vintage Café Racer", "category": "AVATAR_HAT", "priceCoins": 600, "rarity": "Epic" },
+  { "name": "Boné Aba Reta Urbano", "category": "AVATAR_HAT", "priceCoins": 100, "rarity": "Common" },
+  
+  { "name": "Camiseta Vision Zero", "category": "AVATAR_SHIRT", "priceCoins": 100, "rarity": "Common" },
+  { "name": "Colete Refletivo", "category": "AVATAR_SHIRT", "priceCoins": 200, "rarity": "Rare" },
+  { "name": "Jaqueta de Couro Pro", "category": "AVATAR_SHIRT", "priceCoins": 800, "rarity": "Epic" },
+  { "name": "Camiseta Cidadão Ativo", "category": "AVATAR_SHIRT", "priceCoins": 150, "rarity": "Common" },
+  { "name": "Moletom Noturno Neon", "category": "AVATAR_SHIRT", "priceCoins": 450, "rarity": "Rare" },
+  { "name": "Corta-vento de Ciclismo", "category": "AVATAR_SHIRT", "priceCoins": 350, "rarity": "Rare" },
+  { "name": "Uniforme Agente de Trânsito", "category": "AVATAR_SHIRT", "priceCoins": 1000, "rarity": "Legendary" },
+  { "name": "Camisa Eco-Driver", "category": "AVATAR_SHIRT", "priceCoins": 120, "rarity": "Common" },
+  
+  { "name": "Bicicleta Urbana Elétrica", "category": "AVATAR_VEHICLE", "priceCoins": 1200, "rarity": "Epic" },
+  { "name": "Patinete de Aluguel", "category": "AVATAR_VEHICLE", "priceCoins": 300, "rarity": "Common" },
+  { "name": "Moto 150cc Custom", "category": "AVATAR_VEHICLE", "priceCoins": 2500, "rarity": "Legendary" },
+  { "name": "Skate Voador", "category": "AVATAR_VEHICLE", "priceCoins": 5000, "rarity": "Legendary" },
+  { "name": "Bicicleta Dobrável", "category": "AVATAR_VEHICLE", "priceCoins": 800, "rarity": "Rare" },
+  { "name": "Monociclo Elétrico", "category": "AVATAR_VEHICLE", "priceCoins": 1500, "rarity": "Epic" },
+  { "name": "Hoverboard Neon", "category": "AVATAR_VEHICLE", "priceCoins": 2000, "rarity": "Legendary" },
+  { "name": "Rollerblade Turbo", "category": "AVATAR_VEHICLE", "priceCoins": 600, "rarity": "Rare" },
+  
+  { "name": "Óculos de Sol Aviador", "category": "AVATAR_ACCESSORY", "priceCoins": 200, "rarity": "Rare" },
+  { "name": "Mochila Entregador", "category": "AVATAR_ACCESSORY", "priceCoins": 150, "rarity": "Common" },
+  { "name": "Braçadeira Led Pisca", "category": "AVATAR_ACCESSORY", "priceCoins": 250, "rarity": "Rare" },
+  { "name": "Smartwatch GPS", "category": "AVATAR_ACCESSORY", "priceCoins": 400, "rarity": "Epic" },
+  { "name": "Luvas de Motociclista", "category": "AVATAR_ACCESSORY", "priceCoins": 100, "rarity": "Common" },
+  { "name": "Máscara Anti-poluição Premium", "category": "AVATAR_ACCESSORY", "priceCoins": 500, "rarity": "Epic" }
+]

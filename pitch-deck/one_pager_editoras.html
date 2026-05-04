@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trânsito Seguro - Apresentação Executiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent-yellow: #facc15;
+            --accent-blue: #3b82f6;
+            --accent-green: #10b981;
+            --text-main: #f8fafc;
+            --text-muted: #cbd5e1;
+            
+            /* Glass properties */
+            --glass-bg: rgba(15, 23, 42, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image: url('traffic_bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #0f172a;
+        }
+
+        /* Gradient Overlay for better reading */
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, rgba(15,23,42,0.85) 0%, rgba(0,0,0,0.4) 100%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        /* Glass Card Component */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: var(--glass-shadow);
+            margin-bottom: 3rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 6rem 0 4rem;
+        }
+
+        .tag-pill {
+            display: inline-block;
+            background: rgba(250, 204, 21, 0.2);
+            color: var(--accent-yellow);
+            border: 1px solid var(--accent-yellow);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 6vw, 5.5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: clamp(1.1rem, 2vw, 1.5rem);
+            color: var(--text-muted);
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            line-height: 1.6;
+        }
+
+        /* Grids */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        /* Typography inside cards */
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .section-title span {
+            color: var(--accent-yellow);
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+        }
+
+        /* Features List */
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .feature-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: var(--accent-yellow);
+        }
+
+        /* Highlight Block */
+        .highlight-block {
+            background: linear-gradient(90deg, rgba(59, 130, 246, 0.2), transparent);
+            border-left: 4px solid var(--accent-blue);
+            padding: 1.5rem 2rem;
+            border-radius: 0 12px 12px 0;
+            margin: 2rem 0;
+        }
+
+        .highlight-block.yellow {
+            background: linear-gradient(90deg, rgba(250, 204, 21, 0.15), transparent);
+            border-left: 4px solid var(--accent-yellow);
+        }
+
+        .highlight-block h3 {
+            color: #fff;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        /* Metrics */
+        .metric-card {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .m-value {
+            font-family: 'Outfit', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--accent-yellow);
+            margin-bottom: 0.5rem;
+            line-height: 1;
+        }
+
+        .m-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #94a3b8;
+            font-weight: 600;
+        }
+
+        /* Mockup Image */
+        .img-container {
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .img-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .img-container:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Contact Button */
+        .btn-glow {
+            display: inline-block;
+            background: var(--accent-yellow);
+            color: #000;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(250, 204, 21, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-glow:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 0 40px rgba(250, 204, 21, 0.6);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .grid-2, .grid-3 { grid-template-columns: 1fr; }
+            .glass-card { padding: 2rem; }
+            .container { padding: 2rem 1.5rem; }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.8rem; }
+            .m-value { font-size: 2.5rem; }
+            .section-title { font-size: 1.5rem; }
+            .section-title span { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-overlay"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="tag-pill">Oportunidade B2B</div>
+            <h1>Trânsito Seguro</h1>
+            <p>O 1º Ecossistema Pedagógico de Cidadania Viária do Brasil. Uma solução completa em 9 volumes, pronta para edição, diagramação e escala comercial.</p>
+            <a href="#solucao" class="btn-glow">Descobrir o Projeto</a>
+        </header>
+
+        <!-- Metrics Row -->
+        <div class="grid-3" style="margin-bottom: 3rem;">
+            <div class="metric-card">
+                <div class="m-value">9</div>
+                <div class="m-label">Volumes Estruturados</div>
+            </div>
+            <div class="metric-card">
+                <div class="m-value">100%</div>
+                <div class="m-label">Conformidade CTB/BNCC</div>
+            </div>
+            <div class="metric-card">
+                <div class="m-value">Zero</div>
+                <div class="m-label">Custo de P&D P/ Editora</div>
+            </div>
+        </div>
+
+        <div id="solucao" class="grid-2">
+            <!-- Left Col -->
+            <div>
+                <div class="glass-card">
+                    <h2 class="section-title"><span>01</span> Produto Plug & Play</h2>
+                    <p>O projeto entrega à sua editora um ativo pronto: <strong>9 volumes (livro do aluno) e Guias do Professor</strong> totalmente roteirizados. Com inteligência pedagógica de ponta embasada em Kieran Egan e David Ausubel.</p>
+                    <p>Sua editora pula a exaustiva etapa de Pesquisa e Desenvolvimento (P&D), assumindo apenas a identidade visual final e explorando imediatamente sua força comercial.</p>
+                </div>
+
+                <div class="glass-card">
+                    <h2 class="section-title"><span>02</span> Escolas Particulares (B2B)</h2>
+                    <p>O mercado privado busca desesperadamente materiais que agreguem <strong>valor social</strong> ao currículo, sem engessar as disciplinas clássicas.</p>
+                    <div class="highlight-block">
+                        <h3>O Efeito Paradidático</h3>
+                        <p style="margin-bottom: 0;">O projeto funciona como um eixo transversal. A editora aumenta o ticket médio da lista de materiais das escolas, gerando receita nova e diferencial competitivo perante os pais dos alunos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Col -->
+            <div>
+                <div class="img-container" style="margin-bottom: 2rem;">
+                    <!-- Uses the premium mockup generated previously -->
+                    <img src="mockup.png" alt="Mockup Coleção Trânsito Seguro">
+                </div>
+
+                <div class="glass-card">
+                    <h2 class="section-title"><span>03</span> O Segredo do FUNSET</h2>
+                    <p>Para vendas no setor governamental, a maior objeção é sempre a "falta de verba". No trânsito, essa regra não se aplica.</p>
+                    <div class="highlight-block yellow">
+                        <h3>Verba Carimbada por Lei</h3>
+                        <p style="margin-bottom: 0;">A legislação de trânsito obriga que uma porcentagem de toda a arrecadação com multas vá para o FUNSET (Fundo de Segurança e Educação) e para fundos municipais. <strong>Prefeitos e Governadores são obrigados a gastar esse dinheiro com educação no trânsito.</strong> O orçamento já está lá, esperando o projeto certo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Width Architecture -->
+        <div class="glass-card">
+            <h2 class="section-title"><span>04</span> Arquitetura e Estratégia Modular</h2>
+            <p>Com média de 80 a 100 páginas por volume (5 a 8 mil palavras), o escopo foi dividido de forma cirúrgica para lidar com a burocracia das redes públicas:</p>
+            
+            <div class="grid-2" style="margin-top: 2rem;">
+                <div class="metric-card" style="text-align: left;">
+                    <h3 style="color: var(--accent-green); font-size: 1.5rem; margin-bottom: 1rem;">Municípios (1º ao 9º Ano)</h3>
+                    <p>Foco nas Prefeituras. O ciclo finaliza no 9º ano com um "Legado de Cidadania" (Manifesto Real do aluno na Câmara). Entregamos o valor completo antes do aluno migrar de rede.</p>
+                </div>
+                <div class="metric-card" style="text-align: left;">
+                    <h3 style="color: var(--accent-blue); font-size: 1.5rem; margin-bottom: 1rem;">Estados (Ensino Médio)</h3>
+                    <p>Venda estadual única. Impacto massivo cobrindo toda a rede de Ensino Médio com foco em Maturidade Jurídica e preparação direta para a primeira habilitação (CNH).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gamification & Bimodal Section -->
+        <div class="glass-card" style="border-left: 4px solid var(--accent-yellow);">
+            <h2 class="section-title"><span>05</span> Ensino Bimodal e Gamificação (Phygital)</h2>
+            <p>Apenas o papel já não retém a atenção irrestrita das gerações Z e Alpha. Por isso, o projeto nasce como uma <strong>plataforma Bimodal (Livro + Internet)</strong>. O material didático atua como a âncora reflexiva, enquanto nosso aplicativo web expande o aprendizado diretamente para o smartphone do aluno.</p>
+            
+            <div class="grid-3" style="margin-top: 2rem;">
+                <div class="metric-card" style="text-align: left; background: rgba(0,0,0,0.2);">
+                    <h3 style="color: #fff; font-size: 1.2rem; margin-bottom: 0.8rem;">📱 Quizzes Interativos</h3>
+                    <p style="font-size: 0.95rem; margin-bottom:0;">Plataforma digital integrada onde o aluno responde perguntas imersivas sobre as regras do Código de Trânsito Brasileiro e Cidadania.</p>
+                </div>
+                <div class="metric-card" style="text-align: left; background: rgba(0,0,0,0.2);">
+                    <h3 style="color: #fff; font-size: 1.2rem; margin-bottom: 0.8rem;">🎮 Economia Virtual</h3>
+                    <p style="font-size: 0.95rem; margin-bottom:0;">Sistema de progressão real: o aprendizado gera moedas virtuais que permitem comprar itens de customização de avatar na loja do app.</p>
+                </div>
+                <div class="metric-card" style="text-align: left; background: rgba(0,0,0,0.2);">
+                    <h3 style="color: #fff; font-size: 1.2rem; margin-bottom: 0.8rem;">🎯 Desafios no Mundo Real</h3>
+                    <p style="font-size: 0.95rem; margin-bottom:0;">Missões diárias no bairro (ex: mapear buracos, checar cinto de segurança). Transforma o trajeto de casa até a escola em um laboratório ativo.</p>
+                </div>
+            </div>
+            
+            <div class="highlight-block" style="margin-top: 2rem; border-left-color: var(--accent-green); background: linear-gradient(90deg, rgba(16, 185, 129, 0.15), transparent);">
+                <h3>A Vanguarda da Pedagogia Moderna</h3>
+                <p style="margin-bottom: 0;">Essa abordagem <em>Phygital</em> (Physical + Digital) é o ápice da inovação educacional. Ela une as sólidas teorias de <strong>aprendizagem significativa de Ausubel</strong> com as mecânicas de retenção de dopamina da gamificação contemporânea. É o argumento de venda supremo para diretores e secretários de educação que buscam afastar a escola do passado e trazê-la para o futuro.</p>
+            </div>
+        </div>
+
+        <!-- Live Demos & Prototypes Section -->
+        <div class="glass-card" style="border-left: 4px solid var(--accent-blue);">
+            <h2 class="section-title"><span>06</span> Validação Tecnológica (Live Demos)</h2>
+            <p>O ecossistema Trânsito Seguro não é apenas um projeto teórico; os ambientes digitais já estão codificados e prontos para homologação. O aplicativo bimodal (Flutter Web/Mobile) e o painel de gestão das escolas (React/Node) já podem ser testados.</p>
+            
+            <div class="grid-2" style="margin-top: 2rem; align-items: center;">
+                
+                <!-- Links / Text -->
+                <div>
+                    <div class="metric-card" style="text-align: left; background: rgba(0,0,0,0.2); margin-bottom: 1.5rem; border-left: 4px solid var(--accent-yellow);">
+                        <h3 style="color: #fff; font-size: 1.3rem; margin-bottom: 0.5rem;">📱 App Gamificado (Flutter)</h3>
+                        <p style="font-size: 0.95rem;">Aplicativo para o aluno. Desenvolvido em Flutter (Cross-platform). Contém as missões diárias, trilha de aprendizado por ciclos e sistema de perfil do usuário.</p>
+                        <a href="https://app.transitoseguro.vercel.app" target="_blank" class="btn-glow" style="padding: 0.8rem 1.5rem; font-size: 0.9rem; margin-top: 1rem; display: inline-block;">Experimentar App</a>
+                    </div>
+                    
+                    <div class="metric-card" style="text-align: left; background: rgba(0,0,0,0.2); border-left: 4px solid var(--accent-green);">
+                        <h3 style="color: #fff; font-size: 1.3rem; margin-bottom: 0.5rem;">💻 Dashboard Escolar (Vite/React)</h3>
+                        <p style="font-size: 0.95rem;">Painel de controle para Professores e Secretarias de Educação. Acompanhamento de métricas de engajamento, missões completadas e liberação de acesso pedagógico.</p>
+                        <a href="https://admin.transitoseguro.onrender.com" target="_blank" class="btn-glow" style="padding: 0.8rem 1.5rem; font-size: 0.9rem; margin-top: 1rem; display: inline-block; background: var(--accent-green);">Acessar Dashboard</a>
+                    </div>
+                </div>
+
+                <!-- Flutter Mockup Preview -->
+                <div class="img-container" style="box-shadow: 0 10px 40px rgba(59, 130, 246, 0.4); border: 1px solid rgba(59, 130, 246, 0.3);">
+                    <img src="flutter_mockup.png" alt="Prévia do Aplicativo Flutter">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="hero" style="padding: 4rem 0;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Pronto para licenciar o futuro da educação viária?</h2>
+            <p style="margin-bottom: 3rem;">Agende uma reunião para conhecer os originais e explorar a matriz pedagógica.</p>
+            <a href="#" class="btn-glow">Falar com o Autor</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
