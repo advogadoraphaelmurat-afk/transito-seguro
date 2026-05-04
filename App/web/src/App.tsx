@@ -13,7 +13,6 @@ import {
   Download,
   Search,
   Clock,
-  TrafficCone,
   Shield,
   Zap,
   Map,
@@ -59,13 +58,11 @@ const students = [
 
 /* ─── Animated traffic light ───────────────────────── */
 // Sequência real de semáforo: Verde → Amarelo → Vermelho → Amarelo → Verde
-// Amarelo aparece nas DUAS transições com duração igual e visível
-function TrafficLight() {
+// Hook com a lógica de temporização real do semáforo
+function useTrafficLightPhase() {
   const [phase, setPhase] = useState<'green' | 'yellow' | 'red'>('green');
-
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout>;
-    
     if (phase === 'green') {
       timer = setTimeout(() => setPhase('yellow'), 10000); // 10s verde
     } else if (phase === 'yellow') {
@@ -73,12 +70,28 @@ function TrafficLight() {
     } else if (phase === 'red') {
       timer = setTimeout(() => setPhase('green'), 10000); // 10s vermelho
     }
-
     return () => clearTimeout(timer);
   }, [phase]);
+  return phase;
+}
 
+// Semáforo pequeno horizontal (usado no topo/sidebar)
+function MiniTrafficLight() {
+  const phase = useTrafficLightPhase();
   return (
     <div className="traffic-light-mini">
+      <div className={`tl-bulb red    ${phase === 'red' ? 'active' : ''}`} />
+      <div className={`tl-bulb yellow ${phase === 'yellow' ? 'active' : ''}`} />
+      <div className={`tl-bulb green  ${phase === 'green' ? 'active' : ''}`} />
+    </div>
+  );
+}
+
+// Semáforo grande vertical (usado no Hero Banner)
+function TrafficLight() {
+  const phase = useTrafficLightPhase();
+  return (
+    <div className="traffic-light">
       <div className={`tl-bulb red    ${phase === 'red' ? 'active' : ''}`} />
       <div className={`tl-bulb yellow ${phase === 'yellow' ? 'active' : ''}`} />
       <div className={`tl-bulb green  ${phase === 'green' ? 'active' : ''}`} />
@@ -137,7 +150,7 @@ export default function App() {
 
       <header className="mobile-header">
         <div className="sidebar-logo" style={{ padding: 0, border: 'none', background: 'none' }}>
-          <TrafficLight />
+          <MiniTrafficLight />
           <div className="logo-text">
             <div className="brand" style={{ color: '#1A1A1A' }}>Trânsito Seguro</div>
           </div>
@@ -154,7 +167,7 @@ export default function App() {
         {/* ══════════════════ SIDEBAR ══════════════════ */}
         <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
           <div className="sidebar-logo">
-            <TrafficLight />
+            <MiniTrafficLight />
             <div className="logo-text">
               <div className="brand">Trânsito Seguro</div>
               <div className="sub">Cidade Viva · RJ</div>
@@ -251,7 +264,9 @@ export default function App() {
               <div className="view-fade-in">
                 {/* ── Hero Banner ── */}
                 <div className="hero-banner">
-                  <div className="hero-text">
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', zIndex: 2 }}>
+                    <TrafficLight />
+                    <div className="hero-text">
                     <div className="hero-badge">
                       <span className="dot" />
                       Semana letiva em andamento
@@ -260,7 +275,7 @@ export default function App() {
                       Bom trabalho,<br />
                       <span>Prof. Raphael! 🚦</span>
                     </h2>
-                    <p>Suas turmas estão com 87% de taxa de conclusão — acima da média estadual.</p>
+                    </div>
                   </div>
 
                   <div className="hero-stats">
