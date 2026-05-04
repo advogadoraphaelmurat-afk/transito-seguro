@@ -1182,3 +1182,15 @@ tbody tr:hover td {
 .hero-banner { background: rgba(20, 20, 25, 0.4) !important; backdrop-filter: blur(12px) !important; border: 1px solid rgba(255,255,255,0.1) !important; box-shadow: 0 12px 40px rgba(0,0,0,0.6) !important; }
 .topbar { background: rgba(11, 11, 14, 0.5) !important; backdrop-filter: blur(20px) !important; border-bottom: 1px solid rgba(255,255,255,0.05) !important; }
 
+
+/* DINAMISMO CINEMATOGRAFICO & SEMAFORO MINI */
+.traffic-light-mini { display: flex; gap: 4px; background: rgba(0,0,0,0.6); padding: 4px 6px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); }
+.traffic-light-mini .tl-bulb { width: 8px; height: 8px; border-radius: 50%; background: #333; transition: all 0.3s ease; }
+.traffic-light-mini .tl-bulb.red.active { background: #EF4444; box-shadow: 0 0 10px #EF4444, 0 0 20px #EF4444; }
+.traffic-light-mini .tl-bulb.yellow.active { background: #FBBF24; box-shadow: 0 0 10px #FBBF24, 0 0 20px #FBBF24; }
+.traffic-light-mini .tl-bulb.green.active { background: #22C55E; box-shadow: 0 0 10px #22C55E, 0 0 20px #22C55E; }
+
+@keyframes driveBy { 0% { transform: translateX(-100vw) skewX(-45deg); opacity: 0; } 10% { opacity: 0.8; } 50% { transform: translateX(100vw) skewX(-45deg); opacity: 0; } 100% { opacity: 0; } }
+.car-light-sweep { position: fixed; top: 60%; left: 0; width: 300px; height: 10px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent); filter: blur(8px); animation: driveBy 12s infinite cubic-bezier(0.25, 1, 0.5, 1); pointer-events: none; z-index: 0; mix-blend-mode: screen; }
+.car-light-sweep.reverse { top: 65%; animation: driveBy 15s infinite cubic-bezier(0.25, 1, 0.5, 1) reverse; animation-delay: 4s; background: linear-gradient(90deg, transparent, rgba(239,68,68,0.6), transparent); }
+

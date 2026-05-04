@@ -1,6 +1,5 @@
 // v2.1.0 - Stable Build Trigger
 import { useState, useEffect } from 'react';
-import pedestre from './assets/pedestre.gif';
 import cinematicBg from './assets/cinematic_traffic_bg.png';
 import {
   Users,
@@ -68,18 +67,18 @@ function TrafficLight() {
     let timer: ReturnType<typeof setTimeout>;
     
     if (phase === 'green') {
-      timer = setTimeout(() => setPhase('yellow'), 4000);
+      timer = setTimeout(() => setPhase('yellow'), 10000); // 10s verde
     } else if (phase === 'yellow') {
-      timer = setTimeout(() => setPhase('red'), 1500);
+      timer = setTimeout(() => setPhase('red'), 2000); // 2s amarelo
     } else if (phase === 'red') {
-      timer = setTimeout(() => setPhase('green'), 4000);
+      timer = setTimeout(() => setPhase('green'), 10000); // 10s vermelho
     }
 
     return () => clearTimeout(timer);
   }, [phase]);
 
   return (
-    <div className="traffic-light">
+    <div className="traffic-light-mini">
       <div className={`tl-bulb red    ${phase === 'red' ? 'active' : ''}`} />
       <div className={`tl-bulb yellow ${phase === 'yellow' ? 'active' : ''}`} />
       <div className={`tl-bulb green  ${phase === 'green' ? 'active' : ''}`} />
@@ -128,14 +127,17 @@ export default function App() {
     <div className="dashboard-root" style={{ backgroundImage: `url(${cinematicBg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
       {/* Overlay escuro para garantir contraste e deixar as luzes brilharem */}
       <div style={{ position: 'fixed', inset: 0, backgroundColor: 'rgba(5, 5, 8, 0.55)', zIndex: 0, pointerEvents: 'none' }} />
+      
+      {/* Efeitos dinâmicos de luzes (Faróis passando) */}
+      <div className="car-light-sweep" />
+      <div className="car-light-sweep reverse" />
+      
       {/* Faixa de trânsito animada no topo absoluto */}
       <div className="traffic-stripe-top" />
 
       <header className="mobile-header">
         <div className="sidebar-logo" style={{ padding: 0, border: 'none', background: 'none' }}>
-          <div className="logo-icon">
-            <TrafficCone size={18} color="#0D0D0D" />
-          </div>
+          <TrafficLight />
           <div className="logo-text">
             <div className="brand" style={{ color: '#1A1A1A' }}>Trânsito Seguro</div>
           </div>
@@ -152,17 +154,12 @@ export default function App() {
         {/* ══════════════════ SIDEBAR ══════════════════ */}
         <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
           <div className="sidebar-logo">
-            <div className="logo-icon">
-              <TrafficCone size={18} color="#0D0D0D" />
-            </div>
+            <TrafficLight />
             <div className="logo-text">
               <div className="brand">Trânsito Seguro</div>
               <div className="sub">Cidade Viva · RJ</div>
             </div>
           </div>
-
-          {/* Semáforo animado */}
-          <TrafficLight />
 
           {/* Navegação principal */}
           <div className="sidebar-section-label">Menu</div>
@@ -231,12 +228,6 @@ export default function App() {
           {/* Topbar */}
           <div className="topbar">
             <div className="topbar-left">
-              {/* GIF discreto entre a sidebar e o título */}
-              <img
-                src={pedestre}
-                alt="Pedestre semáforo"
-                className="topbar-gif"
-              />
               <div>
                 <h1>Painel do Professor</h1>
                 <p>Escola Municipal · Turno Manhã · Semana 18</p>
