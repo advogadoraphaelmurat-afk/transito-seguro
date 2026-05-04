@@ -1,6 +1,10 @@
 # PROGRAMA TRÂNSITO SEGURO RJ E CIDADANIA VIÁRIA
 **Volume 1 — O Trânsito Começa em Mim**
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_CAPA]**
+> **Prompt:** Lucas e Helena como "Guardiões", com capas de herói transparentes sobre roupas comuns, vigiando uma rua do RJ.
+> **Estilo:** Ilustração Digital (Cores vibrantes, tom de "descoberta", Estilo Realismo Carioca).
+
 ---
 
 ## 📋 FICHA TÉCNICA DO VOLUME
@@ -37,6 +41,10 @@ Até logo,
 
 ### SEMANA 1 | TEXTO DE ABERTURA: A DESCOBERTA DE LUCAS
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_B1_AB]**
+> **Prompt:** Lucas e Dona Marta em uma calçada de Madureira, observando a movimentação de carros e motos.
+> **Estilo:** Narrativo / Cores vibrantes.
+
 Era terça-feira de manhã, e o sol já iluminava as calçadas de Madureira. Lucas, um menino de 9 anos curioso que sempre andava com seu caderninho de anotações no bolso, estava caminhando para a escola com sua avó, a Dona Marta.
 
 Normalmente, eles faziam o trajeto rapidinho. Mas naquele dia, havia um caminhão de lixo parado na rua. Pessoas caminhavam apressadas, um ciclista tocava a buzina da bicicleta e duas motos passavam ao lado bem devagar, tentando encontrar espaço.
@@ -50,6 +58,10 @@ Lucas pegou seu caderninho e observou:
 1. Quem está a pé fica na calçada.
 2. Quem está no carro, na moto ou no caminhão fica na parte asfaltada que a gente chama de "pista".
 3. E para quem está a pé cruzar a pista? Usa a "ponte de tinta" pintada no chão, a faixa de pedestre!
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_B1_DET]**
+> **Prompt:** Detalhe de uma faixa de pedestres com o "bonequinho verde" luminoso aceso, destacando a segurança.
+> **Estilo:** Close-up / Fotorealista ou Ilustração.
 
 Aquele momento despertou uma curiosidade enorme na cabeça dele. "O trânsito" não era algo que acontecia longe dali; o trânsito era ele, a vovó prestando atenção, aquele ciclista buzinando... O trânsito era a vida em movimento!
 
@@ -117,6 +129,10 @@ Em um papel cartão ou folha A3 providenciada pela professora, você vai constru
 **Tema Central:** Semáforos, placas de trânsito como a língua das ruas, cores do trânsito e leitura de trajetos.
 
 ### SEMANA 9 | 📖 TEXTO DE ABERTURA: A CALÇADA É MINHA AMIGA
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_B2_AB]**
+> **Prompt:** Helena apontando para um semáforo que muda de cor em um cruzamento movimentado.
+> **Estilo:** Dinâmico / Vibrante.
 
 Helena, a irmã mais velha de Lucas, estava no 4º ano. No dia seguinte à incrível observação do menino, os dois resolveram caminhar observando não só as pessoas, mas os **sinais**.
 
@@ -189,6 +205,10 @@ Vamos inventar três "Placas Fictícias e Diferentes" usando a linguagem da cor 
 
 ### SEMANA 17 | 📖 TEXTO DE ABERTURA: O CAPACETE DO HERÓI (HISTÓRIA DE PEDRO)
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_B3_AB]**
+> **Prompt:** Pedro recebendo o capacete do pai (Seu Valdir) em frente a uma escola em Niterói.
+> **Estilo:** Emocional.
+
 Pedro tem 9 anos (como você!) e é fanático por histórias em quadrinhos e feiras de heróis na escola estadual em Niterói. Toda manhã, seu Valdir, o pai, o leva para a escola de carro, e nos fins de semana, quando o percurso é curto e seguro, às vezes andam de motocicleta para passeios mais próximos.
 
 Mas Pedro, como todo menino, quando estavam de moto, reclamava um bocado:
@@ -211,6 +231,10 @@ Nosso corpo não é feito para estar em grandes velocidades! A 60 quilômetros p
   - Bebês e crianças pequenas: bebê-conforto ou cadeirinha voltada para trás.
   - Crianças maiores, ainda com menos de 10 anos e menos de 1,45 m: assento de elevação (booster).
   - Crianças com menos de 10 anos **devem sempre ir no banco de trás**, mesmo que já usem cinto convencional.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_B3_TECH]**
+> **Prompt:** Esquema mostrando a cadeirinha e o assento de elevação presos corretamente no banco traseiro.
+> **Estilo:** Infográfico claro e didático.
 
 - **As Regras Para as Rodas Expostas (Moto / Bicicleta):**
   Bicicletas estão cada dia mais presentes no RJ.
@@ -257,6 +281,10 @@ Façamos nossa "Primeira CHN (Carteira de Herói Nacional)". Você tem bicicleta
 **Tema Central:** O pensamento no coletivo. Calçadas acessíveis (para cadeirantes, por exemplo), convivência como pedestre nas portas de escola na entrada/saída, introdução básica para cidadania.
 
 ### SEMANA 25 | 📖 TEXTO DE ABERTURA: UMA CADEIRA COM RODAS DIFERENTE
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V1_B4_AB]**
+> **Prompt:** Geraldo (cadeirante) tentando desviar de sacos de cimento em uma calçada obstruída.
+> **Estilo:** Crítico / Realismo Carioca.
 
 Nesta caminhada com o Lucas e Helena pra chegar à etapa final do ano, aconteceu uma coisa que incomodou os dois lá por volta de Novembro.
 Geraldo, o amigo deles cadeirante (da turma da Helena do colégio), tinha muito problema no caminho de volta por ser portador de lesões e estar recém tentando ir pra escola com as ajudas das calçadas da prefeitura. Em uma viela movimentada do bairro, bem no espaço da calçada onde não podiam estacionar nada (perto de uma guia rebaixada pintada de amarelo), havia um monte de sacos de sobras de concreto do prédio do vizinho.
