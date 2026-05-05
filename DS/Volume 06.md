@@ -20,6 +20,10 @@
 
 ## 👋 APRESENTAÇÃO PARA O ESTUDANTE
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_INTRO_01]**
+> **Prompt:** Rafael, agora com 14 anos, sentado em sua escrivaninha com um semblante sério e focado. À sua frente, uma pasta intitulada "DOSSIÊ DE FORMAÇÃO POLÍTICA" cheia de recortes de jornais e anotações. Pela janela, vemos o pôr do sol sobre os morros do Rio.
+> **Estilo:** Narrativo / Realismo Carioca
+
 Você está prestes a concluir o Ensino Fundamental. Em menos de um ano, você entrará no Ensino Médio. E, em menos de quatro anos, você terá idade para votar, para tirar sua primeira habilitação, para decidir os rumos da sua vida e da sua cidade.
 
 Este volume não é apenas mais um livro. É um **dossiê de formação política**. Nele, você não encontrará respostas prontas. Encontrará **perguntas que os adultos ainda não conseguiram responder** — e que talvez caiba a você responder nos próximos anos.
@@ -42,6 +46,10 @@ Pegue este dossiê. Leia com calma. Questione cada vírgula. E prepare-se para a
 
 ### SEMANA 1 | 📖 ESTUDO DE CASO: A BATALHA DA RUA DO OUVIDOR
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B1_S1]**
+> **Prompt:** Rafael em pé no plenário da Câmara Municipal, segurando um microfone. Ele fala com convicção para uma plateia de vereadores e cidadãos. Ao fundo, um painel com o mapa da Rua do Ouvidor.
+> **Estilo:** Narrativo / Protagonismo Político
+
 Rafael leu no jornal sobre uma polêmica que estava acontecendo no Centro do Rio. A Rua do Ouvidor, uma das mais históricas da cidade, seria transformada em calçadão permanente, proibindo a circulação de carros. Os comerciantes ficaram divididos: uns diziam que ia melhorar o turismo; outros, que ia matar as vendas. Os moradores também se dividiam entre quem queria silêncio e quem queria poder estacionar na porta de casa.
 
 A decisão final seria tomada em uma **Audiência Pública** na Câmara dos Vereadores. Rafael nunca tinha ouvido falar nisso. Ele descobriu que qualquer cidadão podia ir lá e falar. De graça. Sem precisar de advogado. Basta se inscrever.
@@ -49,6 +57,10 @@ A decisão final seria tomada em uma **Audiência Pública** na Câmara dos Vere
 Mas ele também descobriu que, na prática, quem mais fala nessas audiências são os lobistas (representantes pagos por grandes empresas) e os políticos. A Dona Maria, que mora na Rua do Ouvidor há 40 anos, quase nunca tem voz.
 
 ### SEMANA 2 | 🧠 CONTEÚDO CONCEITUAL: O ABC DO PLANEJAMENTO URBANO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B1_S2]**
+> **Prompt:** Fluxograma ilustrado das leis brasileiras: A Constituição Federal como a base, o Estatuto da Cidade como o manual, e o Plano Diretor Municipal como o guia prático. Cada lei é representada por um livro de cores diferentes.
+> **Estilo:** Infográfico / Educativo
 
 Para entender quem manda na cidade, você precisa conhecer três leis fundamentais:
 
@@ -80,6 +92,10 @@ Pesquise o Plano Diretor da sua cidade (ou do Rio de Janeiro). Encontre o **Macr
 
 ### SEMANA 5 | 🎭 AUDIÊNCIA PÚBLICA SIMULADA: O DESTINO DO TERRENO BALDIO
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B1_S5]**
+> **Prompt:** Um grande terreno baldio urbano. A imagem é dividida em três visões sobrepostas: uma área de lazer verde, um estacionamento cinza de concreto, e um prédio residencial moderno.
+> **Estilo:** Conceitual / Colagem Visual
+
 **Cenário:** Na rua da escola, existe um terreno baldio enorme, cheio de mato e lixo. A prefeitura quer fazer ali um **estacionamento rotativo**. A associação de moradores quer um **parque com parquinho e horta comunitária**. Uma construtora quer comprar o terreno para fazer um **prédio de apartamentos**.
 
 **Papéis:**
@@ -107,6 +123,10 @@ Pesquise o Plano Diretor da sua cidade (ou do Rio de Janeiro). Encontre o **Macr
 
 ### SEMANA 10 | DEBATE E APROFUNDAMENTO
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B2_S9]**
+> **Prompt:** Noite na Avenida Maracanã. Um carro contra o canteiro central com o para-choque destruído. Pedro está sentado no meio-fio, com a cabeça entre os joelhos, enquanto Rafael coloca a mão em seu ombro para confortá-lo.
+> **Estilo:** Narrativo / Melancólico
+
 Rafael estava em casa quando soube da notícia: o pai do seu amigo Pedro, Seu Hélio, bateu o carro voltando de uma festa de confraternização. Ele não era de beber. Mas naquela noite, "tomou uma cervejinha só para socializar". Na volta, dormiu ao volante por dois segundos. O carro subiu no canteiro central da Avenida Maracanã. Por sorte, não tinha ninguém na calçada. Seu Hélio quebrou o braço. O carro deu perda total.
 
 Pedro estava arrasado. Ele disse: *"Rafael, eu vi ele beber. Eu sabia. Mas eu fiquei com vergonha de falar. Achei que ele ia ficar bravo. Achei que iam me chamar de chato."*
@@ -114,6 +134,10 @@ Pedro estava arrasado. Ele disse: *"Rafael, eu vi ele beber. Eu sabia. Mas eu fi
 Aquilo atingiu Rafael como um soco. Quantas vidas são perdidas porque alguém **teve medo de ser indelicado**?
 
 ### SEMANA 11 | 🧠 CONTEÚDO CONCEITUAL: A ARTE DE INTERVIR SEM BRIGAR
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B2_S11]**
+> **Prompt:** Balões de pensamento comparativos: De um lado, uma fala agressiva ("Você bebeu! Absurdo!"); do outro, a fala da CNV ("Pai, eu estou com medo"). O segundo balão brilha com uma luz suave e protetora.
+> **Estilo:** Infográfico / Psicológico
 
 Convencer um adulto de que ele está errado é uma das tarefas mais difíceis do mundo. Ainda mais quando esse adulto é seu pai, sua mãe, seu tio ou o motorista da van. Mas existem técnicas que ajudam:
 
@@ -132,6 +156,10 @@ Convencer um adulto de que ele está errado é uma das tarefas mais difíceis do
 ### SEMANA 12 | 🎭 ROLE PLAY AVANÇADO: O GRITO SILENCIOSO
 
 ### SEMANA 13 | ANÁLISE PRÁTICA DO CASO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B2_S13]**
+> **Prompt:** Três alunos em cena: Um motorista simulado, um sobrinho e, atrás deles, um terceiro aluno com uma máscara de teatro representando a "Consciência", sussurrando os medos reais do personagem.
+> **Estilo:** Protagonismo Estudantil / Criativo
 
 Os alunos se dividem em duplas para simular situações de alto risco. O diferencial aqui é que um terceiro aluno fará o papel de **"Consciência"** — uma voz em off que diz o que o personagem está **pensando**, mas não tem coragem de falar.
 
@@ -164,6 +192,10 @@ Os alunos se dividem em duplas para simular situações de alto risco. O diferen
 
 ### SEMANA 17 | 📖 ESTUDO DE CASO: O DIA EM QUE A SUÉCIA MUDOU O JOGO
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B3_S17]**
+> **Prompt:** Uma rua moderna e segura na Suécia sob neve suave: calçadas largas, ciclovias perfeitamente separadas e um sinal de trânsito estilizado com o logo "VISION ZERO". O ambiente transmite calma e segurança.
+> **Estilo:** Fotorealista / Europeu
+
 Em 1997, o parlamento sueco aprovou uma lei chamada **Vision Zero** (Visão Zero). O texto era simples e radical: *"Nenhuma morte ou lesão grave no trânsito é aceitável."*
 
 Enquanto no Brasil a gente aprende que "acidente acontece" e que a culpa é sempre do motorista, os suecos viraram a mesa. Eles disseram: **"Os seres humanos erram. Vão errar para sempre. O que não pode acontecer é o erro matar."**
@@ -171,6 +203,10 @@ Enquanto no Brasil a gente aprende que "acidente acontece" e que a culpa é semp
 O resultado? A Suécia tem hoje uma das menores taxas de mortalidade no trânsito do mundo (cerca de 2,5 mortes por 100 mil habitantes). O Brasil tem **15 mortes por 100 mil habitantes**. Se o Brasil tivesse a taxa da Suécia, **30 mil vidas seriam salvas por ano**.
 
 ### SEMANA 18 | 🧠 CONTEÚDO CONCEITUAL: OS PILARES DA VISION ZERO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B3_S18]**
+> **Prompt:** Infográfico comparativo: Duas silhuetas humanas. Uma preenchida com o caos do trânsito brasileiro (vermelho) e outra com a organização da Vision Zero (azul), destacando as diferenças de pilar: velocidade, infraestrutura e responsabilidade.
+> **Estilo:** Infográfico / Limpo
 
 Como a Suécia fez isso? Não foi só com multa e radar. Foi mudando a **lógica do sistema**.
 
@@ -227,6 +263,10 @@ A sala se divide em dois grupos formais:
 **Tema Central:** Síntese do Ciclo Autoral e elaboração de um manifesto coletivo ou proposta de lei escolar.
 
 ### SEMANA 25 | 📖 TEXTO DE ABERTURA: A CARTA DE RAFAEL PARA O FUTURO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V6_B4_S25]**
+> **Prompt:** Rafael sentado na mureta da laje de sua casa, com as luzes da cidade do Rio ao fundo brilhando como estrelas terrestres. Ele escreve concentrado em seu caderno de capa preta.
+> **Estilo:** Narrativo / Cinematográfico
 
 Rafael está sentado na laje de casa, olhando as luzes da Tijuca. Ele pega seu caderno de capa preta, aquele mesmo que começou no 6º ano com a pergunta "A cidade é de todos?". Ele folheia as páginas. Vê anotações sobre velocidade, entrevistas com Dona Célia, esboços de cartas para vereadores, contas sobre o custo dos acidentes.
 

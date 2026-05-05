@@ -1,0 +1,242 @@
+[
+  { 
+    "question": "Qual é a cor do semáforo que indica atenção, pois ele vai fechar?", 
+    "options": ["Verde", "Azul", "Amarelo", "Vermelho"], 
+    "correctIndex": 2,
+    "explanation": "O amarelo avisa que o sinal vermelho está prestes a acender."
+  },
+  { 
+    "question": "Onde o pedestre deve atravessar a rua com maior segurança?", 
+    "options": ["No meio do quarteirão", "Na faixa de pedestres", "Por entre os carros parados", "Em qualquer lugar"], 
+    "correctIndex": 1,
+    "explanation": "A faixa de pedestres é o local regulamentado para a travessia segura."
+  },
+  { 
+    "question": "Qual é a idade mínima para se sentar no banco da frente de um carro no Brasil?", 
+    "options": ["7 anos", "10 anos", "12 anos", "14 anos"], 
+    "correctIndex": 1,
+    "explanation": "Crianças menores de 10 anos que não tenham atingido 1,45m devem ir no banco traseiro."
+  },
+  { 
+    "question": "O uso do cinto de segurança é obrigatório para quem?", 
+    "options": ["Apenas o motorista", "Apenas passageiros da frente", "Apenas passageiros de trás", "Todos os ocupantes do veículo"], 
+    "correctIndex": 3,
+    "explanation": "O cinto é obrigatório para todos no veículo, em qualquer via."
+  },
+  { 
+    "question": "O que significa a placa circular com borda vermelha e um 'E' cortado por uma linha?", 
+    "options": ["Estacionamento Permitido", "Estacionamento Proibido", "Parada Obrigatória", "Proibido Parar e Estacionar"], 
+    "correctIndex": 1,
+    "explanation": "Um risco simples significa Proibido Estacionar; um X significa Proibido Parar e Estacionar."
+  },
+  { 
+    "question": "Qual é o nome do documento que autoriza uma pessoa a dirigir?", 
+    "options": ["RG", "CPF", "CNH", "IPTU"], 
+    "correctIndex": 2,
+    "explanation": "CNH significa Carteira Nacional de Habilitação."
+  },
+  { 
+    "question": "Qual é a distância lateral mínima que um motorista deve manter ao ultrapassar um ciclista?", 
+    "options": ["50 cm", "1 metro", "1,5 metro", "2 metros"], 
+    "correctIndex": 2,
+    "explanation": "O CTB exige a distância de 1,5 metro para proteger o ciclista."
+  },
+  { 
+    "question": "O semáforo de pedestres está com o bonequinho vermelho piscando. O que fazer?", 
+    "options": ["Começar a atravessar correndo", "Não iniciar a travessia", "Atravessar devagar", "Voltar para a calçada"], 
+    "correctIndex": 1,
+    "explanation": "Se estiver piscando, quem não começou a travessia não deve iniciar."
+  },
+  { 
+    "question": "Quem tem prioridade de passagem no trânsito, de acordo com o CTB?", 
+    "options": ["Caminhões", "Carros de luxo", "Pedestres", "Motos"], 
+    "correctIndex": 2,
+    "explanation": "Os veículos maiores devem zelar pelos menores, e todos pelos pedestres."
+  },
+  { 
+    "question": "Qual é o limite de velocidade padrão em vias urbanas residenciais (locais)?", 
+    "options": ["30 km/h", "40 km/h", "60 km/h", "80 km/h"], 
+    "correctIndex": 0,
+    "explanation": "Vias locais têm limite de 30 km/h para garantir a segurança da vizinhança."
+  },
+  { 
+    "question": "Dirigir sob efeito de álcool é considerado o quê?", 
+    "options": ["Infração Leve", "Infração Média", "Infração Grave", "Infração Gravíssima e Crime"], 
+    "correctIndex": 3,
+    "explanation": "Além de infração gravíssima, é crime se o nível de álcool for alto."
+  },
+  { 
+    "question": "Para que servem as luzes de seta (indicadores de direção)?", 
+    "options": ["Para iluminar a rua", "Para avisar que o carro quebrou", "Para avisar a intenção de virar ou mudar de faixa", "Para enfeitar o carro"], 
+    "correctIndex": 2,
+    "explanation": "A seta comunica aos outros o que o motorista pretende fazer."
+  },
+  { 
+    "question": "O que o pedestre deve fazer antes de atravessar na faixa se não houver semáforo?", 
+    "options": ["Fechar os olhos e ir", "Estender o braço e esperar os carros pararem", "Correr o mais rápido possível", "Gritar com os motoristas"], 
+    "correctIndex": 1,
+    "explanation": "Sinalizar com a mão ajuda o motorista a perceber a intenção de travessia."
+  },
+  { 
+    "question": "Qual equipamento é obrigatório para ciclistas que pedalam à noite?", 
+    "options": ["Sinalização refletiva e luzes", "Capa de chuva", "Fone de ouvido", "Garrafa de água"], 
+    "correctIndex": 0,
+    "explanation": "Ser visto é essencial para a segurança do ciclista à noite."
+  },
+  { 
+    "question": "Usar o celular enquanto dirige é permitido em qual situação?", 
+    "options": ["No engarrafamento", "Com o carro parado no sinal", "Apenas em viva-voz", "Nunca é permitido"], 
+    "correctIndex": 3,
+    "explanation": "Manusear ou segurar o celular é infração gravíssima mesmo parado no sinal."
+  },
+  { 
+    "question": "O que significa a placa octogonal (oito lados) vermelha com a palavra 'PARE'?", 
+    "options": ["Diminuir a velocidade", "Parada Obrigatória", "Cuidado, cruzamento", "Preferência dos carros"], 
+    "correctIndex": 1,
+    "explanation": "O motorista deve parar totalmente o veículo antes de prosseguir."
+  },
+  { 
+    "question": "Qual é a principal causa de mortes no trânsito brasileiro?", 
+    "options": ["Falta de gasolina", "Falha mecânica", "Fator Humano (excesso de velocidade, álcool, celular)", "Mau tempo"], 
+    "correctIndex": 2,
+    "explanation": "Mais de 90% dos sinistros são causados por erros ou imprudência humana."
+  },
+  { 
+    "question": "Crianças pequenas no carro devem usar o quê?", 
+    "options": ["Nada, podem ir no colo", "Apenas o cinto do carro", "Cadeirinha ou assento de elevação adequados", "Podem ir de pé"], 
+    "correctIndex": 2,
+    "explanation": "Dispositivos de retenção (bebê conforto, cadeirinha) salvam vidas."
+  },
+  { 
+    "question": "Qual a cor das placas de sinalização turística?", 
+    "options": ["Azul", "Verde", "Marrom", "Amarelo"], 
+    "correctIndex": 2,
+    "explanation": "As placas marrons indicam atrativos turísticos e culturais."
+  },
+  { 
+    "question": "O que deve ser feito em caso de chuva forte?", 
+    "options": ["Aumentar a velocidade para chegar logo", "Ligar o farol alto", "Reduzir a velocidade e aumentar a distância do carro da frente", "Parar no meio da pista"], 
+    "correctIndex": 2,
+    "explanation": "A chuva diminui a visibilidade e a aderência dos pneus."
+  },
+  { 
+    "question": "A faixa amarela contínua no meio da pista indica o quê?", 
+    "options": ["Pode ultrapassar", "Proibido ultrapassar em ambos os sentidos", "Estacionamento liberado", "Mão única"], 
+    "correctIndex": 1,
+    "explanation": "Linha contínua amarela proíbe a ultrapassagem."
+  },
+  { 
+    "question": "Para que serve o encosto de cabeça no banco do carro?", 
+    "options": ["Para dormir", "Para evitar lesões no pescoço em batidas traseiras", "Para enfeitar", "Para segurar a cabeça"], 
+    "correctIndex": 1,
+    "explanation": "Evita o 'efeito chicote' que pode causar paralisia ou morte."
+  },
+  { 
+    "question": "O que significa a sigla CTB?", 
+    "options": ["Código Técnico Brasileiro", "Código de Transporte do Brasil", "Código de Trânsito Brasileiro", "Conselho de Trânsito do Brasil"], 
+    "correctIndex": 2,
+    "explanation": "É a lei máxima que rege o trânsito no país."
+  },
+  { 
+    "question": "Quando o sinal abre (fica verde), o motorista deve fazer o quê antes de arrancar?", 
+    "options": ["Acelerar fundo", "Buzinar", "Verificar se ainda há pedestres terminando a travessia", "Olhar para o celular"], 
+    "correctIndex": 2,
+    "explanation": "O pedestre que já iniciou a travessia tem a preferência até concluir."
+  },
+  { 
+    "question": "Onde é proibido trafegar com bicicletas?", 
+    "options": ["Em ciclovias", "Em ruas calmas", "Em calçadas (salvo sinalização contrária)", "Em parques"], 
+    "correctIndex": 2,
+    "explanation": "Calçada é lugar de pedestre. Bicicleta na calçada só se for desmontada ou sinalizada."
+  },
+  { 
+    "question": "O que é 'Direção Defensiva'?", 
+    "options": ["Dirigir um carro blindado", "Dirigir para evitar acidentes apesar das ações dos outros", "Dirigir devagar o tempo todo", "Dirigir apenas na defensiva no futebol"], 
+    "correctIndex": 1,
+    "explanation": "É dirigir com atenção total para prever e evitar perigos."
+  },
+  { 
+    "question": "Qual a finalidade das placas laranjas no trânsito?", 
+    "options": ["Avisar sobre obras na pista", "Indicar serviços próximos", "Sinalizar áreas escolares", "Indicar postos de gasolina"], 
+    "correctIndex": 0,
+    "explanation": "A cor laranja é usada para sinalização temporária de obras."
+  },
+  { 
+    "question": "O que o motorista deve fazer ao avistar uma ambulância com a sirene ligada?", 
+    "options": ["Aumentar a velocidade", "Parar no meio da rua", "Deslocar-se para a direita e dar passagem", "Seguir a ambulância de perto"], 
+    "correctIndex": 2,
+    "explanation": "Veículos de emergência têm prioridade total quando em serviço."
+  },
+  { 
+    "question": "Qual a função do airbag?", 
+    "options": ["Substituir o cinto de segurança", "Amortecer o impacto em colisões graves", "Servir de travesseiro", "Aumentar a velocidade"], 
+    "correctIndex": 1,
+    "explanation": "O airbag é um complemento ao cinto, nunca um substituto."
+  },
+  { 
+    "question": "O que significa 'aquaplanagem'?", 
+    "options": ["Lavar o carro", "Perda de contato do pneu com o solo devido a uma camada de água", "Dirigir sobre o gelo", "Fazer o carro voar"], 
+    "correctIndex": 1,
+    "explanation": "O carro 'flutua' na água e o motorista perde o controle."
+  },
+  { 
+    "question": "Qual o perigo de usar o som do carro muito alto?", 
+    "options": ["Acabar com a bateria", "Não ouvir sinais sonoros (buzinas, sirenes)", "Atrair atenção indesejada", "Queimar os alto-falantes"], 
+    "correctIndex": 1,
+    "explanation": "A audição é fundamental para perceber o ambiente do trânsito."
+  },
+  { 
+    "question": "O que significa o triângulo vermelho que deve ser colocado na pista?", 
+    "options": ["Avisar que há um restaurante", "Sinalizar perigo ou veículo quebrado à frente", "Indicar curva perigosa", "Avisar sobre animais"], 
+    "correctIndex": 1,
+    "explanation": "O triângulo avisa aos outros motoristas para diminuírem a velocidade."
+  },
+  { 
+    "question": "Quem é responsável por manter a calçada em bom estado?", 
+    "options": ["Apenas o vizinho", "O proprietário do imóvel (com fiscalização da prefeitura)", "Os pedestres", "As empresas de ônibus"], 
+    "correctIndex": 1,
+    "explanation": "Pelas leis da maioria das cidades, o dono do imóvel cuida da calçada na frente de sua casa."
+  },
+  { 
+    "question": "O que significa a placa amarela em formato de losango?", 
+    "options": ["Regulamentação (obrigação)", "Advertência (alerta sobre perigo adiante)", "Serviços", "Turismo"], 
+    "correctIndex": 1,
+    "explanation": "Placas amarelas alertam sobre condições perigosas na via."
+  },
+  { 
+    "question": "Atravessar a rua olhando para o celular aumenta o risco de quê?", 
+    "options": ["Perder o ônibus", "Acabar a bateria", "Atropelamento por falta de atenção", "Cair no buraco"], 
+    "correctIndex": 2,
+    "explanation": "A 'distração cognitiva' impede que você perceba o perigo vindo em sua direção."
+  },
+  { 
+    "question": "Qual o benefício de andar de bicicleta em vez de carro?", 
+    "options": ["Menos poluição e melhor saúde", "Chegar mais rápido em viagens longas", "Levar mais bagagem", "Não cansar as pernas"], 
+    "correctIndex": 0,
+    "explanation": "A bicicleta é um transporte sustentável e saudável."
+  },
+  { 
+    "question": "O que fazer se você presenciar um acidente de trânsito?", 
+    "options": ["Parar para tirar fotos", "Gritar com os envolvidos", "Sinalizar o local e ligar para o socorro (192 ou 193)", "Ir embora rápido"], 
+    "correctIndex": 2,
+    "explanation": "A prioridade é evitar novos acidentes e salvar vidas."
+  },
+  { 
+    "question": "Qual a importância de manter os pneus do carro calibrados?", 
+    "options": ["Apenas estética", "Melhor frenagem e economia de combustível", "Aumentar o barulho", "Diminuir a velocidade"], 
+    "correctIndex": 1,
+    "explanation": "Pneus murchos ou gastos aumentam a distância de frenagem."
+  },
+  { 
+    "question": "O que significa o semáforo com a luz vermelha?", 
+    "options": ["Acelerar", "Atenção", "Pare imediatamente", "Siga em frente"], 
+    "correctIndex": 2,
+    "explanation": "O vermelho é o comando de interrupção total do movimento."
+  },
+  { 
+    "question": "Quem é a peça mais importante no trânsito seguro?", 
+    "options": ["O carro", "O semáforo", "Você (o ser humano)", "A polícia"], 
+    "correctIndex": 2,
+    "explanation": "A segurança no trânsito depende das escolhas conscientes de cada pessoa."
+  }
+]

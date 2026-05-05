@@ -19,6 +19,10 @@
 
 ## 👋 APRESENTAÇÃO PARA O ESTUDANTE
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_INTRO_01]**
+> **Prompt:** Rafael, agora com 12 anos, em seu quarto, analisando um grande mapa do seu bairro fixado na parede. Ele usa post-its coloridos e marcadores, demonstrando uma atitude ativa e investigativa sobre a infraestrutura urbana.
+> **Estilo:** Narrativo / Realismo Carioca
+
 Se o ano passado você aprendeu a **questionar**, este ano você vai aprender a **agir**.
 
 Lembra do Rafael? Aquele garoto da Tijuca que quase foi atropelado na faixa e decidiu que não queria mais ser só mais um? Ele agora está com 12 anos. E a revolta silenciosa do 6º ano virou uma vontade incontrolável de **mexer os pauzinhos**. Ele cansou de reclamar da calçada esburacada. Agora ele quer saber **quanto custa para consertar** e **quem tem a chave do cofre**.
@@ -45,11 +49,19 @@ Pegue papel, caneta e um tanto de coragem. A cidade está esperando a sua ideia.
 
 *Por Equipe Trânsito Seguro — Sucursal Tijuca*
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B1_S1]**
+> **Prompt:** Rafael na sala de casa, sentado no sofá, observando fixamente na televisão uma notícia sobre uma colisão de trânsito. A luz da TV reflete em seu rosto preocupado. Seu pai está ao fundo na cozinha.
+> **Estilo:** Narrativo / Atmosférico
+
 **RIO DE JANEIRO** — Rafael estava deitado no sofá quando o pai gritou da cozinha: "Olha isso, mais um acidente na Brasil!". Na TV, a notícia mostrava um carro destruído contra um poste. O motorista sobreviveu. Mas Rafael ficou pensando: se o carro estivesse a **60 km/h** em vez de **50 km/h**, a história seria a mesma?
 
 Procuramos o engenheiro Cláudio, aquele mesmo vizinho que já havia explicado sobre o "Caminho da Morte" na Bolívia. Ele nos recebeu com uma conta na ponta do lápis.
 
 "Rafael, a energia de uma batida não dobra quando a velocidade dobra. Ela **quadruplica**", explicou Seu Cláudio. Ele mostrou uma tabela simples:
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B1_S2]**
+> **Prompt:** Tabela técnica estilizada como um infográfico de revista científica: Comparação visual entre 30km/h (ícone de coração), 50km/h (ícone de hospital) e 65km/h (ícone de luto), mostrando as porcentagens de sobrevivência.
+> **Estilo:** Infográfico / Limpo
 
 | Velocidade do Veículo | Chance de um Pedestre Morrer se Atropelado |
 | :--- | :--- |
@@ -60,6 +72,10 @@ Procuramos o engenheiro Cláudio, aquele mesmo vizinho que já havia explicado s
 "Percebeu a maldade?", continuou Cláudio. "A diferença entre **sobreviver e morrer** não está no carro, está no ponteiro do velocímetro. E é por isso que o Código de Trânsito existe. Mas é por isso também que tem gente que quer acabar com os radares."
 
 ### SEMANA 3 | 🧠 ANÁLISE CRÍTICA: POR QUE TEM GENTE QUE ODEIA RADAR?
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B1_S3]**
+> **Prompt:** Ilustração de um radar fixo em uma avenida movimentada. O radar é visto por dois ângulos: de um lado, a frase "Indústria da Multa" escrita em tom de reclamação; do outro, a frase "Indústria da Vida" com dados de redução de mortes.
+> **Estilo:** Conceitual / Dualidade
 
 Você já deve ter ouvido um adulto reclamar: *"Esse radar é indústria da multa!"*.
 Esse é um argumento forte. Mas vamos desmontar ele em três camadas:
@@ -106,11 +122,19 @@ Seu artigo deve ter:
 
 ### SEMANA 9 | 📰 REPORTAGEM DE ABERTURA: "EU JURO QUE TÔ BEM"
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B2_S9]**
+> **Prompt:** Final de uma festa de família no Grajaú. O Tio Beto, com as bochechas coradas, balançando as chaves do carro na mão enquanto Rafael o observa com um olhar de reprovação e medo ao lado do portão.
+> **Estilo:** Narrativo / Realismo
+
 Rafael acompanhou o pai em uma festa de família no Grajaú. Na saída, viu um tio distante, o Tio Beto, cambaleando levemente em direção ao carro. Alguém disse: "Beto, deixa a chave, vai de Uber". Beto respondeu com a frase clássica: *"Eu tô bem, é pertinho, dirijo melhor bêbado do que muito careta por aí."*
 
 Rafael ficou gelado. Ele lembrava da estatística que aprendeu: **70% dos motoristas que morrem em acidentes e fizeram teste do bafômetro estavam alcoolizados.** Mas ele também sabia que discutir com um adulto teimoso na frente de todo mundo era pedir para levar bronca. O que fazer?
 
 No dia seguinte, ele conversou com a professora de Ciências. Ela não deu sermão. Ela desenhou um neurônio no quadro.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B2_S10]**
+> **Prompt:** Diagrama médico estilizado de um cérebro humano. Três áreas são destacadas com cores diferentes: Córtex (Freio Moral), Cerebelo (Equilíbrio) e Tronco (Vida), mostrando como o álcool desliga cada uma em sequência.
+> **Estilo:** Infográfico / Científico
 
 ### SEMANA 10 | 🧪 CONEXÃO COM CIÊNCIAS (EF07CI09): A FARSA DO "EU CONTROLO"
 
@@ -129,6 +153,10 @@ A Lei 11.705/2008 (Lei Seca) tornou crime dirigir sob efeito de álcool. Antes d
 - **A Questão Social:** "Se eu bebi, como volto para casa se o ônibus não passa e o Uber custa metade do que eu gastei na festa?" Essa é a pergunta que Rafael fez e que o poder público raramente responde.
 
 ### SEMANA 12 | ✍️ PRODUÇÃO AUTORAL DO BIMESTRE: ROTEIRO DE PODCAST
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B2_S12]**
+> **Prompt:** Grupo de alunos em uma sala de aula equipada com microfones e fones de ouvido, gravando um podcast. Eles parecem empolgados e sérios enquanto discutem segurança no trânsito.
+> **Estilo:** Narrativo / Contemporâneo
 
 Em grupo, gravem um **podcast de 5 minutos** chamado "Amigo da Vez".
 O formato:
@@ -158,6 +186,10 @@ O formato:
 
 Rafael estava revoltado. A rua da escola dele vivia alagando, o ônibus demorava 40 minutos e não tinha uma árvore para fazer sombra. Ele perguntou para a diretora por que a prefeitura não fazia nada. A diretora riu e disse: *"Rafael, isso não é com a prefeitura do dia a dia. Isso é com o **Plano Diretor**."*
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B3_S17]**
+> **Prompt:** Rafael segurando um livro fictício gigantesco e pesado intitulado "PLANO DIRETOR DA CIDADE". O livro parece um tomo antigo e importante. Rafael olha para ele com curiosidade.
+> **Estilo:** Narrativo / Simbólico
+
 Plano Diretor? Rafael nunca tinha ouvido falar. Ele descobriu que é um livro gigante, uma **Constituição da Cidade**, que define cada metro quadrado do município pelos próximos **10 anos**. Ele define:
 - Onde pode ter prédio alto e onde só pode casa.
 - Onde vai passar o BRT e onde vai ter ciclovia.
@@ -166,6 +198,10 @@ Plano Diretor? Rafael nunca tinha ouvido falar. Ele descobriu que é um livro gi
 E o mais chocante: **esse plano é revisado a cada 10 anos e a população pode (e deve) participar das audiências públicas.** Mas quase ninguém vai, porque ninguém sabe que isso existe.
 
 ### SEMANA 18 | 🗺️ ATIVIDADE DE CAMPO: RAIO-X DO MEU QUARTEIRÃO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B3_S18]**
+> **Prompt:** Equipe de alunos com pranchetas e coletes da escola fazendo medições em uma calçada esburacada. Eles anotam dados e tiram fotos com um celular, parecendo pequenos peritos urbanos.
+> **Estilo:** Realismo Carioca / Ativo
 
 Vamos fazer um **Diagnóstico Urbanístico** do entorno da escola.
 Dividam-se em equipes com pranchetas e respondam:
@@ -208,6 +244,10 @@ Com base no diagnóstico do quarteirão, cada grupo vai redigir uma **"Emenda Po
 ### SEMANA 26 | DEBATE E APROFUNDAMENTO
 
 Rafael percebeu que reclamar no grupo de WhatsApp da família não resolve. Reclamar na sala de aula também não. Ele precisava de um **Projeto**.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V4_B4_S26]**
+> **Prompt:** Alunos na porta da escola durante a saída das aulas. Eles seguram cartazes artesanais e coloridos com desenhos de crianças sorrindo e a frase "Meu amigo desce aqui. Espera eu passar?". Os motoristas ao redor observam a cena.
+> **Estilo:** Narrativo / Humanizado
 
 Ele se lembrou de uma história que ouviu sobre uma escola em Anchieta. Os alunos estavam cansados dos carros pararem em cima da faixa de pedestres na saída da aula. Eles fizeram uma **"Blitz Educativa"**: seguraram cartazes com desenhos de crianças e frases como *"Meu amigo desce aqui. Espera eu passar?"*. Na primeira semana, os motoristas buzinavam. Na segunda, alguns sorriam. Na terceira, a maioria parava antes da faixa. Eles não mudaram a lei. Mudaram o comportamento.
 

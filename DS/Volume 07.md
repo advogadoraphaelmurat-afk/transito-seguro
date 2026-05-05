@@ -17,6 +17,10 @@
 
 ## 👋 APRESENTAÇÃO PARA O ESTUDANTE
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_INTRO_01]**
+> **Prompt:** Um estudante de 15 anos, com mochila de Ensino Médio, segurando um exemplar da Constituição Federal de um lado e um Manual do Condutor do outro. Ele olha com seriedade para o leitor, transmitindo a transição de estudante para cidadão ativo.
+> **Estilo:** Narrativo / Realismo Carioca
+
 Você está no Ensino Médio. Isso significa que a sociedade já não te olha mais como uma criança que precisa ser protegida. Agora, ela te olha como um **cidadão em plena formação de direitos e deveres**. Em menos de dois anos, você terá idade para votar. Em menos de três, poderá tirar sua Carteira Nacional de Habilitação. As leis que regem o trânsito não são mais um conteúdo distante — elas estão prestes a se aplicar **diretamente a você**.
 
 Este volume não foi feito para quem quer respostas fáceis. Foi feito para quem quer entender **como o Estado funciona** (ou deveria funcionar) para proteger a vida nas ruas e estradas. Vamos abrir a Constituição Federal. Vamos ler o Código de Trânsito Brasileiro como se lê um romance policial: procurando pistas, contradições e omissões. Vamos analisar decisões reais do Supremo Tribunal Federal. Vamos descobrir que, por trás de cada acidente, existe uma cadeia de responsabilidades que vai muito além do motorista.
@@ -41,7 +45,13 @@ A Constituição Federal de 1988 abre seu capítulo sobre direitos fundamentais 
 
 O direito à vida é o primeiro da lista. Não por acaso. Ele é a **condição para o exercício de todos os outros direitos**. Não há liberdade sem vida. Não há propriedade sem vida. Não há dignidade sem vida. Por isso, os juristas chamam o direito à vida de **cláusula pétrea** — uma cláusula que não pode ser abolida nem mesmo por uma emenda constitucional.
 
-E, no entanto, o Estado brasileiro contabiliza, ano após ano, mais de **37 mil mortes** no trânsito. Isso equivale a um **genocídio silencioso e normalizado**. Se um desastre natural matasse 37 mil pessoas de uma só vez, o país decretaria luto nacional. Mas, como essas mortes acontecem uma a uma, diluídas em boletins de ocorrência e leitos de UTI, a sociedade as trata como "fatalidades".
+E, no entanto, o Estado brasileiro contabiliza, ano após ano, mais de **37 mil mortes** no trânsito. Isso equivale a um **genocídio silencioso e normalizado**. 
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B1_S1]**
+> **Prompt:** Infográfico de alto impacto visual: O número "37.000" composto por milhares de pequenas silhuetas humanas. Uma faixa preta de luto cruza o número, com a frase "O Genocídio Silencioso" escrita em branco.
+> **Estilo:** Infográfico / Dramático
+
+Se um desastre natural matasse 37 mil pessoas de uma só vez, o país decretaria luto nacional. Mas, como essas mortes acontecem uma a uma, diluídas em boletins de ocorrência e leitos de UTI, a sociedade as trata como "fatalidades".
 
 **A questão central deste bimestre é: o Estado está cumprindo seu dever constitucional de proteger a vida no trânsito? Se não está, quem pode ser responsabilizado?**
 
@@ -67,6 +77,10 @@ Essa realidade gera duas perguntas incômodas:
 ### SEMANA 3 | 3. ESTUDO DE CASO JURÍDICO: O ATROPELAMENTO DA CICLISTA
 
 Vamos analisar um caso real (com nomes fictícios) que tramitou na Justiça do Rio de Janeiro:
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B1_S3]**
+> **Prompt:** Reconstituição técnica do acidente: Uma vista aérea da ciclovia da Lagoa Rodrigo de Freitas. Um carro de aplicativo cruzando a linha branca para a ciclofaixa, com um ícone de "distração" (smartphone) brilhando dentro do veículo.
+> **Estilo:** Diagrama Técnico / Realista
 
 > **O Fato:** Márcia, 42 anos, ciclista, trafegava pela ciclofaixa da Lagoa Rodrigo de Freitas em uma manhã de domingo. Um motorista de aplicativo, Carlos, 28 anos, dirigia logo atrás, distraído com o GPS do celular. Ao tentar ultrapassar outro veículo, invadiu a ciclofaixa e atingiu Márcia pelas costas. Ela faleceu no local. Carlos não havia ingerido álcool. Ele alegou que "não viu a ciclista".
 
@@ -126,6 +140,10 @@ Seu ensaio deve:
 
 A palavra **"epidemiologia"** vem do grego e significa "estudo sobre o povo". Ela analisa a distribuição e os determinantes das doenças e agravos à saúde em uma população. E, sob essa ótica técnica, o que acontece com os motociclistas no Brasil é uma **epidemia**.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B2_S9]**
+> **Prompt:** Gráfico de barras estilizado comparando os leitos de hospital: Uma ala inteira pintada de azul (geral) e uma ala gigante pintada de vermelho intenso (motociclistas), mostrando a ocupação de 60% por vítimas de moto.
+> **Estilo:** Infográfico / Médico-Epidemiológico
+
 Os dados do Ministério da Saúde (DATASUS) não deixam dúvidas:
 - **15.459 motociclistas mortos** em 2024 (42% de todas as mortes no trânsito).
 - **Internações no SUS:** Motociclistas representam **60% dos leitos** de ortopedia e traumatologia.
@@ -161,6 +179,10 @@ Acessem o site do **Observatório Nacional de Segurança Viária (ONSV)** ou do 
 No bairro de Madureira, Zona Norte do Rio, o mototáxi é essencial. As ruas estreitas e os morros íngremes tornam o acesso de ônibus e carros difícil. Milhares de trabalhadores dependem da moto para chegar à estação de trem ou para subir com compras.
 
 Em 2023, a Prefeitura do Rio tentou aumentar a fiscalização sobre os mototaxistas clandestinos. A operação gerou protestos violentos. Os mototaxistas alegavam que a prefeitura queria "acabar com o ganha-pão" deles. A prefeitura alegava que estava "salvando vidas".
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B2_S11]**
+> **Prompt:** Cena urbana em Madureira: Mototaxistas em seus pontos oficiais, com rostos expressivos, segurando faixas que dizem "Respeite meu Ganha-Pão". Do outro lado, fiscais da prefeitura e cones de sinalização, criando um clima de tensão social.
+> **Estilo:** Realismo Carioca / Social
 
 **Quem estava certo?**
 
@@ -226,12 +248,20 @@ A Constituição de 1988 e o Estatuto da Cidade (Lei 10.257/2001) tentaram mudar
 Significa que um terreno baldio no centro da cidade não pode ficar abandonado, servindo apenas para especulação imobiliária, enquanto faltam moradias e espaços públicos. Significa que uma avenida não pode ser projetada apenas para maximizar a velocidade dos carros, ignorando a segurança de quem anda a pé ou de bicicleta.
 
 **Atividade de Campo: Auditoria de Calçada**
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B3_S18]**
+> **Prompt:** Um estudante ajoelhado em uma calçada urbana, usando uma trena para medir a largura livre. Ele anota em uma prancheta "0,80m - Não acessível". Ao fundo, uma pessoa em cadeira de rodas observa com expectativa.
+> **Estilo:** Protagonismo Estudantil / Técnico
+
 Escolham um quarteirão no entorno da escola. Façam a medição da largura da calçada (com trena ou passos calibrados). Verifiquem se há obstáculos (postes, lixeiras, carros estacionados). Classifiquem a calçada de acordo com a **NBR 9050** (norma de acessibilidade), que exige largura mínima de **1,20 metro** livre para circulação de cadeirantes.
 - **Pergunta:** A calçada da sua escola cumpre a função social de garantir o direito de ir e vir de **todas** as pessoas?
 
 ### SEMANA 19 | 3. ESTUDO DE CASO: A DISPUTA DA RUA DO MATOSO
 
 Na Zona Portuária do Rio, a Rua do Matoso era uma via degradada, com armazéns abandonados e calçadas estreitas. Com a revitalização da região (Porto Maravilha), a prefeitura elaborou um projeto para alargar as calçadas, plantar árvores e reduzir a velocidade dos carros. A ideia era transformar a rua em um **boulevard** para pedestres.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B3_S21]**
+> **Prompt:** Transformação urbana: De um lado (preto e branco), a Rua do Matoso degradada e cinza; do outro (colorido), a mesma rua como um Boulevard vibrante, com árvores, pessoas caminhando e mesas de café na calçada.
+> **Estilo:** Antes e Depois / Artístico
 
 Os comerciantes locais resistiram. Eles temiam que a redução das vagas de estacionamento afastasse os clientes que chegavam de carro. A imprensa apelidou o impasse de "A Guerra da Calçada".
 
@@ -319,6 +349,10 @@ Após oito meses de insistência, a lombofaixa foi instalada. Nenhuma criança f
 **Lição do Caso:** A cidadania não se faz com gritaria. Faz-se com **protocolo, lei e persistência**.
 
 ### SEMANA 28 | 4. SIMULAÇÃO COMPLETA: PROCESSO LEGISLATIVO MUNICIPAL
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V7_B4_S28]**
+> **Prompt:** Sala de aula transformada em plenário: Um aluno no centro defendendo um projeto de lei de iniciativa popular, enquanto colegas atuam como comissões avaliadoras em mesas organizadas. O clima é de debate democrático sério.
+> **Estilo:** Protagonismo Estudantil / Realismo Carioca
 
 A turma vai simular a tramitação de um **Projeto de Lei de Iniciativa Popular** na Câmara de Vereadores do Rio de Janeiro.
 

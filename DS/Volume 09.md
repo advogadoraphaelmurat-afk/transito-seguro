@@ -30,6 +30,10 @@ A pergunta que encerra esta coleção não é uma questão teórica. É um **cha
 
 > **"Diante de tudo o que eu sei, qual é a minha responsabilidade? E o que eu vou fazer a respeito?"**
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_INTRO_01]**
+> **Prompt:** Rafael, aos 17 anos, em uma seção eleitoral. Ele está diante da urna eletrônica, com o título de eleitor na mão e um olhar de profunda consciência e responsabilidade. Ele não está apenas votando; ele está escolhendo o futuro da sua cidade.
+> **Estilo:** Narrativo / Solene
+
 Rafael está com 17 anos. Ele vai votar este ano. Ele já escolheu seu candidato baseado em propostas de mobilidade. Mas ele sabe que votar não basta. Ele precisa agir. E você?
 
 ---
@@ -37,6 +41,10 @@ Rafael está com 17 anos. Ele vai votar este ano. Ele já escolheu seu candidato
 
 # 🎒 BIMESTRE 1: CONSTITUIÇÃO, TRÂNSITO E DEMOCRACIA
 **Tema Central:** Síntese constitucional comparada e o trânsito como espelho da qualidade democrática.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_B1_S1]**
+> **Prompt:** A "Arena Democrática" da rua: Uma cena de cruzamento onde vemos um carro blindado, uma mulher com um carrinho de bebê em uma calçada estreita, um jovem negro em uma moto sendo parado por uma blitz, e um ciclista tentando desviar de um ônibus. As tensões sociais são visíveis.
+> **Estilo:** Realismo Social / Impactante
 
 ### SEMANA 1 | 1. TEXTO-BASE: "O TRÂNSITO COMO ARENA DEMOCRÁTICA"
 
@@ -54,6 +62,10 @@ Não é coincidência que os países com as menores taxas de mortalidade no trâ
 No Brasil, a naturalização da morte no trânsito é um sintoma de uma democracia **de baixa intensidade**, onde o direito à vida, embora escrito na Constituição, é relativizado por interesses econômicos e pela ineficiência estatal.
 
 ### SEMANA 3 | 2. ANÁLISE COMPARADA: BRASIL VS. SUÉCIA (VISION ZERO)
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_B1_S3]**
+> **Prompt:** Infográfico comparativo de modelos de Estado: O modelo brasileiro (focado na punição individual e fluidez) versus o modelo sueco (focado no design que perdoa o erro e na responsabilidade compartilhada).
+> **Estilo:** Infográfico / Comparativo
 
 Vamos aprofundar a comparação iniciada no Volume 6, agora sob a ótica do **modelo de Estado**.
 
@@ -111,6 +123,10 @@ Escreva um ensaio de 40 a 50 linhas sobre o tema:
 # 🎒 BIMESTRE 2: DIREITO URBANÍSTICO AVANÇADO
 **Tema Central:** Função social da cidade, segregação espacial e a luta pelo direito à calçada.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_B2_S9]**
+> **Prompt:** Close-up de uma calçada destruída. Uma mão (representando a dignidade humana) tenta "consertar" o asfalto quebrado que impede a passagem de uma bengala de uma pessoa com deficiência visual.
+> **Estilo:** Conceitual / Humanizado
+
 ### SEMANA 9 | 1. TEXTO-BASE: "A CALÇADA COMO EXTENSÃO DA DIGNIDADE HUMANA"
 
 ### SEMANA 10 | DEBATE E APROFUNDAMENTO
@@ -147,6 +163,10 @@ O Tribunal de Justiça de São Paulo já teve decisões conflitantes. O caso ain
 A turma se divide em:
 - **Advogados da Prefeitura:** Defendem a lei (o município não tem dinheiro para fazer todas as calçadas; a responsabilidade compartilhada é a única saída).
 - **Defensoria Pública:** Defende os moradores de baixa renda (a lei é injusta e penaliza quem já é vítima da omissão do Estado).
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_B2_S13]**
+> **Prompt:** Debate jurídico: Sete estudantes atuando como Ministros do STF em uma mesa solene. Dois outros estudantes, um representando a Defensoria e outro a Prefeitura, apresentam seus argumentos apaixonadamente sobre a responsabilidade pelas calçadas.
+> **Estilo:** Protagonismo Estudantil / Solene
+
 - **Ministros do STF (7 alunos):** Votam pela **Constitucionalidade** ou **Inconstitucionalidade** da lei, fundamentando seus votos com base na Constituição Federal.
 
 ### SEMANA 14 | 4. PRODUÇÃO AUTORAL: LAUDO TÉCNICO DE ACESSIBILIDADE
@@ -183,7 +203,11 @@ Elabore, individualmente ou em dupla, um **Laudo Técnico Simplificado** sobre a
 # 🎒 BIMESTRE 3: ATIVISMO JURÍDICO E TRÂNSITO
 **Tema Central:** Instrumentos processuais para a defesa de direitos difusos e coletivos no trânsito.
 
-### SEMANA 17 | 1. TEXTO-BASE: "A CANETA É MAIS FORTE QUE A BUZINA"
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_B3_S17]**
+> **Prompt:** Ilustração metafórica: Uma caneta-tinteiro elegante e pesada caindo sobre o asfalto. Onde a ponta da caneta toca, o asfalto se transforma em leis e decretos que forçam os carros a pararem para os pedestres. A legenda: "A caneta é mais forte que a buzina".
+> **Estilo:** Surrealismo Jurídico / Artístico
+
+### SEMANA 9 | 1. TEXTO-BASE: "A CALÇADA COMO EXTENSÃO DA DIGNIDADE HUMANA"
 
 ### SEMANA 18 | DEBATE E APROFUNDAMENTO
 
@@ -221,6 +245,10 @@ Um grupo de universitários do curso de Direito e Engenharia Civil se reuniu. El
 O juiz concedeu uma **liminar** suspendendo a obra até o julgamento final. O caso ganhou a imprensa. A pressão popular fez com que a Câmara de Vereadores abrisse uma CPI. A obra foi cancelada. O dinheiro foi remanejado para a construção de creches e postos de saúde. Tudo isso começou com cinco estudantes e uma petição inicial bem escrita.
 
 ### SEMANA 22 | 4. SIMULAÇÃO PRÁTICA: PROTOCOLO NO MINISTÉRIO PÚBLICO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_B3_S22]**
+> **Prompt:** Um grupo de estudantes da 3ª série entregando uma pasta formal para um Promotor de Justiça (representado por um adulto sério e acolhedor). Através da janela do gabinete, vemos a escola deles, foco da representação.
+> **Estilo:** Narrativo / Realismo Carioca
 
 A turma vai simular o protocolo de uma **Representação Coletiva** no Ministério Público Estadual.
 
@@ -328,6 +356,10 @@ Guarde esta carta em um envelope lacrado. Coloque uma data para abrir. Daqui a d
 ## 📑 EPÍLOGO DA COLEÇÃO
 
 Rafael concluiu o Ensino Médio. Seu caderno de capa preta, que começou com uma pergunta tímida no 6º ano — *"A cidade é de todos?"* —, está agora cheio de anotações, leis, croquis e protocolos. Ele não sabe se conseguirá mudar o mundo. Mas ele sabe de uma coisa: **ele já não é mais o mesmo**.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V9_FINAL]**
+> **Prompt:** Rafael, agora um jovem adulto, parado na beira da Avenida Maracanã. Ele segura seu caderno de capa preta, que está visivelmente gasto e cheio. Ele olha para o horizonte da cidade com um sorriso determinado. Ele não tem mais medo; ele tem um plano.
+> **Estilo:** Cinematográfico / Inspiracional
 
 Ele olha para a Avenida Maracanã, vê o fluxo incessante de carros, motos e ônibus, e não sente mais medo ou raiva. Ele sente **responsabilidade**. Ele sabe que a cidade não é um cenário pronto. É um texto em constante escrita. E ele, Rafael, aprendeu a escrever.
 

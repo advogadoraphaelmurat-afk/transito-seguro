@@ -18,6 +18,10 @@
 
 ## 👋 APRESENTAÇÃO PARA O ESTUDANTE E PERGUNTA GERADORA
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_INTRO_01]**
+> **Prompt:** Isabela, uma menina carioca de 10 anos, observando pensativa o movimento intenso de carros e ônibus em uma rua movimentada do Rio de Janeiro, segurando um pequeno caderno vermelho. Ao fundo, o Pão de Açúcar ou o Cristo Redentor em silhueta distante.
+> **Estilo:** Narrativo / Fotorealista
+
 Você consegue imaginar uma rua diferente de todas as outras?
 Talvez você ande pelo Rio de Janeiro, sinta o calor no rosto nas calçadas apertadas de Bangu ou observe o engarrafamento na Avenida Brasil. Talvez você já tenha tomado um susto quando um carro freou forte bem na sua frente, ou escutou a buzina alta de um motoboy com pressa.
 
@@ -34,17 +38,29 @@ Isabela logo percebeu que as respostas não são fáceis. O trânsito é como um
 # 🎒 BIMESTRE 1: POR QUE AS PESSOAS SE MACHUCAM NO TRÂNSITO?
 **Tema Central:** Causas básicas, velocidade como vilã visível e escolhas diárias.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_B1_S1]**
+> **Prompt:** Seu João, um homem trabalhador de meia-idade, limpando com cuidado o seu capacete de mototáxi na calçada em frente à sua casa. A moto está estacionada ao lado. Isabela o observa da janela.
+> **Estilo:** Close-up / Humanizado
+
 ### SEMANA 1 | GANCHO EMOCIONAL: A HISTÓRIA DO SEU JOÃO E DA RUA FANTASMA
 Isabela olhava pela janela o pai, Seu João, limpando o capacete. Seu João trabalha em cima da moto, subindo ladeiras íngremes e buzinando nos atalhos. Há dois meses, num cruzamento pertinho da escola da Isabela, um menino de 11 anos do turno da tarde atravessou a rua correndo porque a bola tinha escapado. O motorista do carro não estava usando o celular, não estava alcoolizado e a rua era "segura". Mesmo assim, ele bateu na criança, que precisou ir de maca para o hospital com a perna fraturada.
 
 Isabela anotou no caderno: *Como é que isso acontece se não tinha ninguém fazendo nada "errado"?*
 A verdade é que as pessoas acham que a "pista" é feita só para o metal andar voando. O vizinho de Isabela, o engenheiro de tráfego Seu Cláudio, sentou na calçada e contou um segredo para ela: "A estrada mais mortal do mundo fica na Bolívia e é apelidada de Caminho da Morte, porque lá não cabe erro humano, o penhasco é certo. Mas sabe qual o cruzamento mais seguro? É na Holanda, porque lá, se o motorista errar, a velocidade e o desenho da rua **não deixam** a pessoa se machucar feio."
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_B1_S2]**
+> **Prompt:** Infográfico mostrando a diferença de impacto: um vulto de um carro a 40km/h se aproximando de uma silhueta de criança, comparando a força do impacto à queda de um prédio de 2 andares.
+> **Estilo:** Infográfico / Conceitual
+
 ### SEMANA 2 | DESENVOLVIMENTO COM TENSÃO: PEÇAS DO QUEBRA-CABEÇA
 O acidente perto da escola de Isabela nos obrigou a ser detetives. Se o motorista não estava alcoolizado, por que o menino foi parar no hospital? A peça que falta aqui é invisível: **a velocidade**. 
 Uma via residencial que diz "40 km/h" parece devagar. Mas 40 km/h para o aço batendo no osso de uma criança de 11 anos é o equivalente a cair do 2º andar de um prédio. A velocidade excessiva sempre transforma um susto num hospital.
 
 **🔎 Conexão com Ciências (EF05CI08):** Nosso corpo tem reflexos, mas eles têm limite. Quando vemos um obstáculo, o cérebro demora cerca de 0,75 segundo para mandar a ordem de frear. Nesse tempinho, a 40 km/h o veículo percorre mais de 8 metros. Se a velocidade fosse 30 km/h, a distância seria de apenas 6 metros – às vezes a diferença entre o susto e a tragédia.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_B1_S4]**
+> **Prompt:** Cena noturna de um cruzamento com luzes de ambulância refletidas no asfalto molhado. O motorista, visivelmente abalado, sentado na calçada com as mãos na cabeça.
+> **Estilo:** Narrativo / Dramático
 
 ### SEMANA 3 | HUMANIZAÇÃO DOS DADOS
 Vemos sempre na televisão que "centenas de acidentes aconteceram ontem". Parece que "acidente" é uma nuvem preta com números. Mas os números têm nome.
@@ -75,6 +91,10 @@ Descobrimos que a pressa foi a verdadeira vilã, não a curva da rua. O menino L
 # 🎒 BIMESTRE 2: DUAS RODAS NO MUNDO
 **Tema Central:** O uso da Bicicleta; ciclofaixa como direito; e o caso de Bogotá.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_B2_S9]**
+> **Prompt:** Isabela radiante recebendo sua primeira bicicleta com aros coloridos no Natal. Ela está no quintal de casa, mas olha para o portão com desejo de sair para a rua.
+> **Estilo:** Narrativo / Emocional
+
 ### SEMANA 9 | GANCHO EMOCIONAL: A BICICLETA DA ISABELA
 O Seu João montava a moto, e a Isabela ganhou uma novidade brilhante: sua primeira bicicleta de aros coloridos no Natal passado. Ela queria correr todos os ventos! Mas sua tia gritou: "Na rua não! Carro nenhum respeita as perninhas e o guidão dela!".
 Isabela sentou triste na varanda. Ela leu algo no celular da avó: existiram cidades no mundo, há muitos anos lá na China, que **proibiram as bicicletas no trânsito** para que os carros não batessem nelas e atrapalhassem o 'progresso'! Imaginem? Banir a diversão e algo limpo por culpa dos poluentes de metal gigantescos.
@@ -86,6 +106,10 @@ No Brasil não proibimos as bicicletas, mas não fazemos caminhos seguros. Sem p
 
 ### SEMANA 11 | HUMANIZAÇÃO DOS DADOS
 Enrique Peñalosa lutou de forma dura na prefeitura! De um lado os empresários dos estacionamentos esbravejando e querendo ele fora, e de outro a dona de casa que começou a pegar a bicicleta e em pouco tempo chegou saudável e sorrindo e não pagava passagem do ônibus superlotado na sexta-feira à noite. Os relatórios dizem "milhares de novos ciclistas". Na verdade o que houve foi a dona Maria que parou de sentir a coluna moída e conheceu os sorrisos das ruas livres.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_B2_S12]**
+> **Prompt:** Um funcionário da prefeitura pintando uma ciclofaixa de vermelho vivo no asfalto. Isabela observa a linha vermelha como se fosse um caminho mágico sendo construído.
+> **Estilo:** Fotorealista / Perspectiva ao nível do chão
 
 ### SEMANA 12 | PONTO DE VIRADA: PINTAR O CHÃO É UM ATO HERÓICO
 A Isabela viu que a prefeitura, do nada, pintou uma faixa vermelhinha perto de uma avenida. "Ciclovia". Parecia que era só dar um pincel e esmagar a tinta rubra.
@@ -111,6 +135,10 @@ A Isabela finalmente desceu do portão. A ciclofaixa a enchia de emoção, ela e
 
 # 🎒 BIMESTRE 3: O CELULAR E A ATENÇÃO
 **Tema Central:** O tempo de reação empírico, a tela roubando a segurança do herói e experimentos.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V2_B3_S17]**
+> **Prompt:** Ponto de vista do passageiro: Seu João na moto, parado no sinal, espiando o celular. Ao fundo, carros começando a buzinar e o sinal acabando de abrir.
+> **Estilo:** Ponto de Vista (POV) / Realismo
 
 ### SEMANA 17 | GANCHO EMOCIONAL: A EXPERIÊNCIA DO APAGÃO
 Seu João estava com a moto parada no sinal e puxou rapidamente do bolso para checar as fotos do aniversário no grupo da família no WhatsApp. De repente... BI-BI-BI-BI!! Todo mundo atrás xingando ele e estourando as janelas! Ele travou ali e disse pra Isabela chegando em casa: "Fiquei surdo, surdo ali filha, era só três cliques!".

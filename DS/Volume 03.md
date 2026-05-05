@@ -18,6 +18,10 @@
 
 ## 👋 APRESENTAÇÃO PARA O ESTUDANTE
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_INTRO_01]**
+> **Prompt:** Rafael, um jovem de 11 anos da Tijuca, parado em uma calçada estreita e esburacada, observando o tempo do semáforo de pedestres enquanto carros luxuosos passam em alta velocidade. Ele carrega uma mochila escolar e parece estar medindo o espaço com os olhos.
+> **Estilo:** Narrativo / Realismo Urbano
+
 Você já parou para pensar **quem decide** que a calçada da sua rua é tão estreita?
 Quem decidiu que o sinal abre para os carros por 60 segundos e para os pedestres por apenas 20?
 Quem decidiu que, na sua rua, não tem ciclovia, mas tem dois estacionamentos?
@@ -38,12 +42,20 @@ Prepare seu olhar de detetive e sua coragem de questionar. Nós vamos mergulhar 
 # 🎒 BIMESTRE 1: OS NÚMEROS QUE O BRASIL ESCONDE
 **Tema Central:** A desconstrução das estatísticas de trânsito e o custo humano da "normalidade".
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B1_S1]**
+> **Prompt:** Cena de ação na Rua Conde de Bonfim: Rafael congelado no primeiro passo na faixa de pedestres, enquanto um carro prata passa zunindo, quase tocando seu pé. O semáforo de pedestres está verde.
+> **Estilo:** Dramático / Close-up de impacto
+
 ### SEMANA 1 | 1. GANCHO EMOCIONAL: O DIA EM QUE RAFAEL QUASE VIROU UMA NOTÍCIA DE JORNAL
 Era uma segunda-feira. Rafael descia a Rua Conde de Bonfim para pegar o ônibus. No cruzamento com a Santo Afonso, ele apertou o botão do semáforo, esperou o bonequinho verde acender e deu um passo. Um carro prata furou o sinal vermelho a quase 60 km/h, raspando o meio-fio a centímetros de seus pés. O coração de Rafael disparou como um tambor. Ele não foi atropelado por **um passo**.
 
 Chegando em casa, com as pernas ainda moles, ele foi pesquisar. E descobriu algo que o deixou mais furioso do que assustado: uma em cada quatro pessoas atropeladas no Brasil está **na faixa de pedestres**. Não estão erradas. Estão no lugar certo, fazendo a coisa certa. E mesmo assim são atingidas.
 
 Foi ali que Rafael decidiu: ele não queria mais só saber das regras. Ele queria saber dos **números de verdade**.
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B1_S2]**
+> **Prompt:** Infográfico comparativo: O Estádio do Maracanã lotado à esquerda; à direita, o mesmo estádio com quase metade dos assentos vazios, representando as 37 mil vítimas anuais do trânsito no Brasil.
+> **Estilo:** Infográfico / Impactante
 
 ### SEMANA 2 | 2. DESENVOLVIMENTO COM TENSÃO: O QUE SIGNIFICA "37 MIL MORTES"?
 A televisão diz: *"O trânsito brasileiro matou 37 mil pessoas no ano passado."* É um número tão grande que parece um filme de terror distante. Mas o que esse número esconde?
@@ -58,6 +70,10 @@ Imagine que você está em um show no Maracanã lotado. Agora, imagine que quase
 - Se cada morte afeta diretamente 5 pessoas (pai, mãe, irmãos, amigos), quantas pessoas são impactadas por dia?
 
 *(Resposta esperada: ~41 mortes/dia; ~8,5 mortes durante o horário escolar; ~205 pessoas impactadas por dia.)*
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B1_S3]**
+> **Prompt:** Anderson, um jovem entregador, acelerando sua moto em uma rua movimentada de Madureira. Ele olha ansioso para o celular preso ao guidão, mostrando um tempo de entrega apertado.
+> **Estilo:** Narrativo / Tensão Urbana
 
 ### SEMANA 3 | 3. HUMANIZAÇÃO DOS DADOS: A HISTÓRIA DE DONA CÉLIA
 Rafael entrevistou Dona Célia, a merendeira da escola. Ela contou que seu sobrinho, Anderson, de 22 anos, morreu numa moto em Madureira. Ele era entregador de aplicativo. No dia do acidente, ele estava atrasado porque o aplicativo tinha dado uma rota mais longa para "otimizar" o tempo. Ele acelerou para não perder a pontuação. Um carro fez uma conversão proibida. Anderson não teve tempo de frear.
@@ -95,6 +111,10 @@ Em grupo, pesquisem no site do DATASUS ou em notícias locais os locais com mais
 # 🎒 BIMESTRE 2: MOTOS: MOBILIDADE OU EPIDEMIA?
 **Tema Central:** O paradoxo da motocicleta no Brasil — inclusão econômica versus tragédia social.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B2_S9]**
+> **Prompt:** Tio Zeca montado em sua moto de trabalho, sorrindo com o capacete no braço, mostrando a liberdade do movimento. Em um detalhe circular ao lado, vemos o close de uma cicatriz de cirurgia em sua perna, revelando o perigo da profissão.
+> **Estilo:** Humanizado / Contraste visual
+
 ### SEMANA 9 | 1. GANCHO EMOCIONAL: AS DUAS FACES DO CAPACETE
 O pai de Rafael não tem moto, mas o tio dele, o Zeca, é mototaxista. Para o tio Zeca, a moto é liberdade e pão na mesa. Ele consegue subir os morros da Tijuca onde ônibus não passam, e leva gente para o trabalho na chuva e no sol. Mas o tio Zeca também tem uma cicatriz enorme na perna. E já foi a três enterros de colegas de profissão só este ano.
 
@@ -113,6 +133,10 @@ A turma se divide em quatro grupos:
 4. **Motoristas de Carro:** "Eles costuram o trânsito, não dá para ver no retrovisor."
 
 Cada grupo apresenta seus argumentos. No final, a turma vota: **"Quem tem mais responsabilidade pelas mortes de motociclistas?"**
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B2_S11]**
+> **Prompt:** Uma mesa de almoço de domingo em uma casa simples da Tijuca. Todos estão sentados, mas há uma cadeira vazia com um capacete sobre ela. O clima é de silêncio e tristeza.
+> **Estilo:** Narrativo / Melancólico
 
 ### SEMANA 11 | 3. HUMANIZAÇÃO DOS DADOS: O VAZIO NA MESA
 Rafael visitou o tio Zeca num domingo. Na laje, havia uma cadeira vazia. Era do amigo "Perninha", que tinha morrido numa curva na semana anterior. A esposa dele estava lá, com o filho de 3 anos no colo. O menino não entendia por que o pai não chegava. A mãe dele não parava de olhar para o portão.
@@ -173,6 +197,10 @@ Desenhe a rua da sua casa ou da escola. Meça (ou estime) a largura total e depo
 
 Agora, pesquise quantas pessoas passam por essa rua **de carro** e quantas passam **a pé ou de ônibus**. Você vai descobrir que, muitas vezes, a menor fatia da pizza serve a maior quantidade de gente.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B3_S19]**
+> **Prompt:** Dona Marta, uma senhora idosa com bengala, tentando atravessar um degrau alto de calçada quebrada enquanto um carro está estacionado sobre a faixa de pedestres.
+> **Estilo:** Fotorealista / Denúncia Social
+
 ### SEMANA 19 | 3. HUMANIZAÇÃO DOS DADOS: O PEDESTRE INVISÍVEL
 A Dona Marta, avó do Lucas (do Volume 1), foi entrevistada por Rafael. Ela tem 72 anos e usa uma bengala. Ela contou que demora quase 40 minutos para andar 500 metros, porque precisa desviar de carros na calçada, subir meio-fio quebrado e esperar uma eternidade para o sinal de pedestre abrir (quando abre).
 
@@ -212,12 +240,20 @@ A turma pode escolher as melhores cartas e enviá-las pelos Correios ou protocol
 # 🎒 BIMESTRE 4: TRIBUNAL DO TRÂNSITO — O JULGAMENTO DO SISTEMA
 **Tema Central:** Simulação jurídica e análise sistêmica da culpa em um sinistro de trânsito.
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B4_S25]**
+> **Prompt:** Cena noturna sob chuva: O cruzamento da Avenida Maracanã com o semáforo de pedestres apagado. Juliana, uma adolescente, iniciando a travessia insegura enquanto luzes de faróis se aproximam ao longe.
+> **Estilo:** Atmosférico / Cinematográfico
+
 ### SEMANA 25 | 1. GANCHO EMOCIONAL: O CASO DO CRUZAMENTO FANTASMA
 A professora apresenta um caso **real** (com nomes trocados) ocorrido na Zona Norte do Rio:
 
 > *"Numa noite de chuva, Juliana, 14 anos, voltava da aula de reforço. O sinal de pedestres estava quebrado. Ela esperou um espaço entre os carros e começou a atravessar a Avenida Maracanã. Um motociclista de aplicativo, Rodrigo, 20 anos, vinha costurando o corredor a 70 km/h (a via permitia 60). A viseira do capacete dele estava embaçada por causa da chuva. Ele não viu Juliana. A colisão foi fatal para a menina. Rodrigo sobreviveu com fraturas graves."*
 
 A pergunta não é "quem é o culpado?". A pergunta é: **"Quais são TODOS os culpados?"**
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V3_B4_S26]**
+> **Prompt:** Uma sala de aula transformada em tribunal: alunos atuando como juiz, advogados e jurados. Eles discutem fervorosamente ao redor de uma mesa com o mapa do acidente de Juliana.
+> **Estilo:** Narrativo / Protagonismo Estudantil
 
 ### SEMANA 26 | 2. DESENVOLVIMENTO COM TENSÃO: OS BANCOS DOS RÉUS (JÚRI SIMULADO)
 A sala se transforma em um tribunal. Distribuem-se os papéis:

@@ -13,6 +13,10 @@
 
 ## 🛑 MENSAGEM AOS ALUNOS
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_INTRO_01]**
+> **Prompt:** Rafael, agora com 16 anos, com o rosto encostado no vidro embaçado e quente de um ônibus da Avenida Brasil. Ele tosse levemente enquanto observa, lá fora, um menino pequeno (Lucas) atravessando uma passarela sob uma nuvem de fumaça preta de escapamento.
+> **Estilo:** Narrativo / Realismo Carioca
+
 Rafael olhava pela janela do ônibus parado na Avenida Brasil. O calor de março parecia derreter o asfalto, e o cheiro forte de escapamento invadia o veículo. Ele, agora com 16 anos, tossiu. Lembrou-se de Lucas, o menino mais novo da sua rua que vivia com bombinha de asma e que ele ajudara certa vez a atravessar uma via perigosa. Lucas era a cara daquela infância que Rafael ia deixando para trás, uma infância que sofria calada com as ruas sem calçada e o ar pesado. Agora, mais velho e prestes a tirar o título de eleitor, Rafael sabia que a tosse de Lucas não era azar: era o sintoma de uma cidade doente. 
 
 Neste ano, vamos olhar para o trânsito não apenas como um problema de batidas e atropelamentos, mas como uma engrenagem que afeta a nossa saúde, o ar que respiramos e o modelo de consumo que nos é empurrado goela abaixo. Se respirar é um direito de todos, por que a cidade nos obriga a inalar veneno diariamente? 
@@ -27,6 +31,10 @@ Bem-vindos ao segundo ano do Ensino Médio. A conversa, daqui para a frente, é 
 *A Conta Oculta que Todos Pagamos*
 
 ### SEMANA 1 | 📖 O Ponto de Partida
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B1_S1]**
+> **Prompt:** Infográfico médico: Um pulmão humano estilizado onde uma metade é limpa e a outra é preenchida por silhuetas de carros e fumaça. Ao lado, uma conta de hospital com o título "A Conta Oculta da Poluição".
+> **Estilo:** Infográfico / Médico-Científico
+
 Você sabia que o trânsito brasileiro coloca o SUS numa verdadeira UTI? Não estamos falando só de quem quebra a perna caindo de moto na Linha Amarela. Estamos falando de um problema crônico. A poluição gerada por milhões de escapamentos provoca asma, bronquite, doenças cardiovasculares e até câncer de pulmão. 
 
 ### SEMANA 2 | 🗣️ Debate Introdutório
@@ -39,6 +47,10 @@ O artigo 196 da nossa Constituição diz que a saúde é um direito de todos e d
 Pesquise casos reais onde o Estado foi processado por não garantir a saúde pública frente à poluição e traga os achados para a roda de conversa.
 
 ### SEMANA 5 | 🚀 Planejamento da Missão
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B1_S5]**
+> **Prompt:** Um grupo de estudantes (16 anos) em um cruzamento urbano movimentado. Um deles usa um medidor de ruído (ou celular), outro anota a quantidade de fumaça visível, e um terceiro observa o desconforto dos pedestres.
+> **Estilo:** Protagonismo Estudantil / Realismo Carioca
+
 A turma vai investigar um problema de saúde pública ligado ao trânsito perto da escola — pode ser um cruzamento muito barulhento ou uma frota de ônibus velha poluindo demais.
 
 ### SEMANA 6 | 📝 Redação da Representação
@@ -56,7 +68,11 @@ A "Representação ao Ministério Público" simulada está pronta.
 *A Cidade como um Ecossistema em Desequilíbrio*
 
 ### SEMANA 9 | 📖 O Ponto de Partida
-O artigo 225 da Constituição Federal afirma que todos temos direito a um meio ambiente ecologicamente equilibrado. Mas como falar em equilíbrio numa cidade onde o carro particular, que carrega em média 1,2 pessoas, ocupa a maior parte do espaço e emite a maior parte dos gases de efeito estufa? 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B2_S9]**
+> **Prompt:** Ilustração conceitual: Um único carro de luxo ocupando um enorme retângulo de asfalto (com a legenda "1,2 pessoas"), comparado ao mesmo retângulo preenchido por 30 bicicletas ou 50 pedestres.
+> **Estilo:** Infográfico / Comparativo
+
+O artigo 225 da Constituição Federal afirma que todos temos direito a um meio ambiente ecologicamente equilibrado. Mas como falar em equilíbrio numa cidade onde o carro particular, que carrega em média 1,2 pessoas, ocupa a maior parte do espaço e emite a maior parte dei gases de efeito estufa? 
 
 ### SEMANA 10 | 🗣️ Debate Introdutório
 Analise o uso do espaço no seu bairro. Quanto do asfalto é destinado a pessoas (praças, calçadas largas) e quanto é dominado por veículos estacionados e em movimento?
@@ -71,6 +87,10 @@ Vocês podem usar a experiência de cidades como Londres e sua Zona de Baixa Emi
 Planejem a execução de um *Inventário Arbóreo* do entorno da escola. Quais dados precisam ser coletados?
 
 ### SEMANA 14 | 🌳 Coleta de Dados na Rua
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B2_S14]**
+> **Prompt:** Os estudantes caminhando por uma calçada ensolarada e sem árvores, protegendo os olhos do sol. Eles marcam em um mapa digital ou prancheta os locais onde faltam sombras e onde o asfalto está rachado.
+> **Estilo:** Narrativo / Prático
+
 Com pranchetas ou os próprios cadernos, mapeiem as árvores do quarteirão, anotando áreas onde não há sombra e calçadas estão desprotegidas.
 
 ### SEMANA 15 | 📝 Redação do Projeto de Lei
@@ -85,6 +105,10 @@ Apresentação final do seu projeto em sala.
 *Vendendo Sonhos, Entregando Pesadelos*
 
 ### SEMANA 17 | 📖 O Ponto de Partida
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B3_S17]**
+> **Prompt:** Paródia de comercial de TV: Uma tela dividida. Na esquerda, um carro brilhante em uma estrada vazia e futurista ("O Sonho"); na direita, o mesmo carro preso em um engarrafamento caótico do Rio, com o motorista estressado ("A Realidade").
+> **Estilo:** Crítico / Publicitário
+
 Repare no próximo comercial de carro que você vir na TV ou na internet. As ruas estão sempre vazias, os cenários são deslumbrantes e a velocidade é vendida como sinônimo de liberdade e poder. Mas a vida real tem engarrafamentos intermináveis, estresse e acidentes. Quem paga a conta dessa ilusão?
 
 ### SEMANA 18 | 🗣️ Debate Visual
@@ -100,6 +124,10 @@ Além disso, existe o chamado *lobby* da indústria automobilística, que muitas
 A turma vai ser dividida em "agências de propaganda do bem". Esbocem no papel ideias para descontruir um comercial famoso de veículos focando na realidade das mortes diárias.
 
 ### SEMANA 22 | 🎥 Produção Midiática
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B3_S22]**
+> **Prompt:** Estudantes em volta de um computador ou tablet, criando um cartaz digital de "Contrapropaganda". O cartaz mostra um velocímetro de carro que se transforma em uma linha de batimentos cardíacos de hospital.
+> **Estilo:** Criativo / Digital
+
 Hora de botar a mão na massa produzindo uma "Contrapropaganda": um vídeo curto gravado pelo celular ou um cartaz digital forte.
 
 ### SEMANA 23 | 🎬 Exposição Crítica
@@ -129,6 +157,10 @@ Entendendo como uma lei municipal nasce: da proposta, passando pelas comissões 
 A classe debaterá e rascunhará junta os artigos e incisos do Projeto de Lei "Escola Segura no Trânsito".
 
 ### SEMANA 30 | 🏛️ A Grande Simulação
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V8_B4_S30]**
+> **Prompt:** O ápice do ano: A sala de aula organizada como um plenário municipal. Rafael está no púlpito defendendo apaixonadamente o "Projeto de Lei Escola Segura" diante de seus colegas, que atuam como vereadores.
+> **Estilo:** Protagonismo / Solene
+
 O encerramento do ano será com uma simulação legislativa na Câmara Municipal dentro da sala. Vocês vão debater o Projeto de Lei, passando pelas comissões fictícias e defendendo as ideias no plenário.
 
 ### SEMANA 31 | 📝 O Manifesto Pessoal

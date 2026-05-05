@@ -19,6 +19,10 @@
 
 ## 👋 APRESENTAÇÃO PARA O ESTUDANTE
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_INTRO_01]**
+> **Prompt:** Rafael, agora com 13 anos, sentado à mesa com uma calculadora e uma pilha de papéis que lembram faturas de hospital e planilhas de gastos públicos. Ele olha para a tela do computador que exibe o número "R$ 24 BILHÕES".
+> **Estilo:** Narrativo / Realismo Carioca
+
 No ano passado, você aprendeu que a cidade é um tabuleiro de xadrez onde nem todo mundo joga com as mesmas peças. Você entendeu de velocidade, de bebida e de Plano Diretor. Mas ainda falta uma peça fundamental nesse quebra-cabeça: **o dinheiro**.
 
 Quanto custa um acidente? Quem paga a conta do hospital? Por que um patinete elétrico causa tanta briga na ciclovia? E por que, se existe tecnologia para fazer carros que não batem, a gente continua morrendo nas ruas como se estivesse no século passado?
@@ -41,11 +45,19 @@ Prepare a calculadora, o senso crítico e a coragem de questionar o que parece "
 
 ### SEMANA 1 | 1. GANCHO EMOCIONAL: A CONTA QUE CHEGOU PARA A VÓ NEUZA
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B1_S1]**
+> **Prompt:** Dona Neuza, uma senhora idosa e bondosa, em sua sala de estar simples, segurando uma pasta gorda de documentos hospitalares. Rafael está ao lado dela, observando os valores astronômicos impressos nas folhas.
+> **Estilo:** Narrativo / Humanizado
+
 Rafael estava na casa da avó, Dona Neuza, quando o carteiro entregou uma correspondência gorda do hospital. Era a conta dos curativos, das placas de titânio e dos 45 dias de fisioterapia que o tio Zeca (aquele mototaxista do Volume 3) precisou depois de uma queda feia na moto. Dona Neuza olhou os números, respirou fundo e disse: *"Graças a Deus tem o SUS, senão a gente tava na rua."*
 
 Aquilo acendeu uma luz na cabeça de Rafael. Se o SUS pagou a conta do tio Zeca, **quem paga o SUS?** A resposta é: **nós**. Cada um de nós, quando compra um pão, um remédio ou paga uma conta de luz, está pagando impostos. E uma parte enorme desses impostos está sendo queimada para tapar o buraco que os acidentes de trânsito abrem todo dia.
 
 ### SEMANA 2 | 2. DESENVOLVIMENTO COM TENSÃO: R$ 24 BILHÕES NÃO É TROCO
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B1_S2]**
+> **Prompt:** Infográfico de alto impacto: Uma montanha de cédulas de Real sendo "queimada" por um ícone de acidente de trânsito, e ao lado, o que esse mesmo dinheiro poderia construir: fileiras de escolas modernas e hospitais equipados.
+> **Estilo:** Infográfico / Conceitual
 
 Estudos do IPEA (Instituto de Pesquisa Econômica Aplicada) mostram que o Brasil perde, todos os anos, algo em torno de **R$ 24 bilhões** com acidentes de trânsito. Mas o que cabe dentro desse número gigantesco?
 
@@ -60,6 +72,10 @@ Estudos do IPEA (Instituto de Pesquisa Econômica Aplicada) mostram que o Brasil
 - **Atividade:** Pesquise quanto custou a última grande obra da sua cidade (um viaduto, um BRT). Compare com o valor anual desperdiçado em acidentes. O que faz mais falta?
 
 ### SEMANA 3 | 3. HUMANIZAÇÃO DOS DADOS: A FILA QUE NÃO ANDA
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B1_S3]**
+> **Prompt:** Cena de um corredor de hospital público lotado. Em primeiro plano, uma enfermeira conversa com Rafael. Ao fundo, macas com vítimas de acidentes de moto ocupam espaços onde pacientes idosos aguardam em cadeiras de rodas.
+> **Estilo:** Realismo Social / Fotorealista
 
 O tio Zeca se recuperou bem. Mas Rafael conversou com a enfermeira que cuidou dele. Ela contou que, por causa do alto número de vítimas de moto, as **cirurgias eletivas** (aquelas que não são de emergência, como correção de hérnia ou retirada de vesícula) vivem sendo adiadas no SUS.
 
@@ -99,6 +115,10 @@ O infográfico deve ter um título impactante e dados reais pesquisados em fonte
 
 ### SEMANA 9 | 1. GANCHO EMOCIONAL: O CARRO QUE VIU O QUE NINGUÉM VIU
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B2_S9]**
+> **Prompt:** Ponto de vista tecnológico: A tela de um carro moderno destacando em vermelho um pedestre atravessando a rua sob chuva intensa. O sistema do carro detecta o perigo que o olho humano, cansado, ainda não percebeu.
+> **Estilo:** Futurista / Tecnológico
+
 Rafael estava vendo vídeos na internet quando se deparou com uma propaganda de um carro que "freia sozinho". Uma câmera filmava um pedestre atravessando fora da faixa, à noite, na chuva. O motorista não viu. Mas o carro viu. Uma buzina aguda soou e os freios travaram sozinhos, parando o veículo a centímetros do susto.
 
 "Uau", pensou Rafael. "A tecnologia pode ser o super-herói que a gente precisa." Mas, no dia seguinte, ele leu uma notícia sobre um acidente nos Estados Unidos: um carro em modo "piloto automático" avançou um sinal vermelho e bateu em outro veículo. O motorista confiou **demais** na máquina e não estava prestando atenção.
@@ -108,6 +128,10 @@ A dúvida se instalou: **a tecnologia nos salva ou nos deixa mais relaxados e, p
 ### SEMANA 10 | 2. DESENVOLVIMENTO COM TENSÃO: O DILEMA DO BONDE (VERSÃO MODERNA)
 
 Os carros autônomos são programados para seguir regras. Mas o trânsito é cheio de situações imprevisíveis. Imagine este cenário (o famoso "Dilema do Bonde"):
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B2_S10]**
+> **Prompt:** Ilustração do "Dilema do Bonde" versão moderna: Um carro autônomo sem motorista em uma encruzilhada, com linhas de decisão algorítmicas projetadas no chão, apontando para uma criança e um ciclista idoso.
+> **Estilo:** Infográfico / Ético-Conceitual
+
 > *Um carro autônomo está a 60 km/h. De repente, uma criança atravessa correndo atrás de uma bola. Para não atropelar a criança, o carro precisa desviar bruscamente para a esquerda, onde há um idoso de bicicleta. Ou seguir reto e atropelar a criança. O que o software deve escolher?*
 
 Não existe resposta fácil. Mas existe uma decisão que **já foi tomada por um programador** em algum lugar do mundo. E você não sabe qual foi.
@@ -116,6 +140,10 @@ Não existe resposta fácil. Mas existe uma decisão que **já foi tomada por um
 Toda tecnologia carrega os valores de quem a criou. Um aplicativo de entrega pode ser programado para "maximizar entregas por hora" (o que pressiona o motoboy a correr) ou para "maximizar a segurança do entregador" (mesmo que demore mais). A pergunta é: **qual valor você colocaria em primeiro lugar?**
 
 ### SEMANA 11 | 3. HUMANIZAÇÃO DOS DADOS: A TELA QUE VIGIA E PUNE
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B2_S11]**
+> **Prompt:** Interior da cabine de um ônibus urbano. Uma pequena câmera com luzes infravermelhas está apontada para o rosto do motorista. Um ícone de "alerta" aparece em um painel digital quando ele boceja.
+> **Estilo:** Close-up / Tecnológico
 
 Rafael lembrou do pai reclamando que a empresa de ônibus instalou câmeras com inteligência artificial dentro dos veículos. A câmera detecta se o motorista está bocejando (sinal de cansaço) ou desviando o olhar para o celular. Se detecta, o sistema emite um alerta sonoro e avisa a central. Muitos motoristas odiaram. Mas os dados da empresa mostraram que, em um ano, os acidentes caíram 25%.
 
@@ -157,6 +185,10 @@ Em grupo, escolham um aplicativo de transporte (Uber, 99, iFood, Rappi). Pesquis
 
 ### SEMANA 17 | 1. GANCHO EMOCIONAL: A GUERRA DO PATINETE
 
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B3_S17]**
+> **Prompt:** Caos na Praça Saens Peña: Um patinete elétrico passando rente a Rafael em uma calçada estreita. Ao fundo, um entregador de bicicleta elétrica sobe uma ladeira íngreme entre os carros.
+> **Estilo:** Dinâmico / Realismo Carioca
+
 Rafael quase foi atropelado por um patinete elétrico na calçada da Praça Saens Peña. O rapaz que pilotava estava com fone de ouvido e passou zunindo. Uma senhora gritou: "Isso tinha que ser proibido!". Mas, ao mesmo tempo, Rafael viu um entregador de bicicleta elétrica subindo a ladeira da Rua Uruguai sem suar, fazendo entregas que salvavam o almoço de dezenas de famílias.
 
 O patinete e a bike elétrica são heróis ou vilões? Eles ocupam pouco espaço, não poluem o ar, são silenciosos. Mas eles dividem espaço com pedestres nas calçadas estreitas e com carros nas ruas esburacadas. E, como Rafael viu na notícia, os acidentes com bikes elétricas no Rio **quase dobraram em um ano**.
@@ -172,6 +204,10 @@ O problema não está na roda pequena do patinete. Está no **cimento**.
 Pesquise a extensão da malha cicloviária da Zona Sul do Rio e compare com a da Zona Norte ou Zona Oeste. Onde há mais ciclovias? Onde há mais ciclistas? Quem está mais protegido?
 
 ### SEMANA 19 | 3. HUMANIZAÇÃO DOS DADOS: A HISTÓRIA DE DONA EUNICE
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B3_S19]**
+> **Prompt:** Dona Eunice, uma mulher negra trabalhadora, pedalando sua bicicleta elétrica usada ao entardecer. Ela sorri, sentindo o vento, mas mantém um olhar atento e cauteloso ao dividir a pista com um ônibus grande.
+> **Estilo:** Narrativo / Humanizado
 
 Dona Eunice é diarista. Ela mora em Oswaldo Cruz e trabalha na Tijuca. Ela comprou uma bicicleta elétrica usada, parcelada em 12 vezes. Com a bike, ela economiza R$ 8,00 de passagem por dia e chega em casa 40 minutos mais cedo para ver os filhos.
 
@@ -215,6 +251,10 @@ Cada grupo vai redigir um **Projeto de Lei Municipal** para regular o uso de pat
 **Tema Central:** O direito de ir e vir como direito fundamental e as barreiras sociais que o limitam.
 
 ### SEMANA 25 | 1. GANCHO EMOCIONAL: A GREVE DE ÔNIBUS QUE PAROU RAFAEL
+
+> 🖼️ **[ESPAÇO PARA ILUSTRAÇÃO: V5_B4_S25]**
+> **Prompt:** Um ponto de ônibus lotado e desolado no subúrbio. Pessoas com rostos cansados e preocupados. Rafael, com sua mochila, olha para o final da rua vazia, percebendo que não terá transporte para a escola.
+> **Estilo:** Narrativo / Melancólico
 
 Numa manhã de quarta-feira, Rafael acordou cedo, tomou café e desceu para pegar o ônibus. A rua estava estranhamente vazia. O ponto estava lotado de gente com cara de desespero. "Greve de ônibus", avisou o jornaleiro. Rafael voltou para casa. Sem dinheiro para um carro de aplicativo, ele simplesmente **não pôde ir à escola** naquele dia.
 
