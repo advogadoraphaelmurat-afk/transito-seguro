@@ -9,6 +9,10 @@ echo "Rodando pub get..."
 flutter pub get
 
 echo "Compilando Flutter Web..."
-flutter build web --release
+if [ -z "$API_URL" ]; then
+  flutter build web --release
+else
+  flutter build web --release --dart-define=API_URL=$API_URL
+fi
 
 # O resultado ficará na pasta build/web

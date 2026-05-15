@@ -63,13 +63,66 @@ async function main() {
     }
   }
 
+  // 3. Create Volume 8 (A Cidade que Adoece - Ensino Médio)
+  const vol8 = await prisma.volume.upsert({
+    where: { id: 8 },
+    update: {},
+    create: {
+      id: 8,
+      title: 'A Cidade que Adoece',
+      cycle: 'ENSINO_MEDIO',
+    },
+  });
+
+  const bimesters8 = [
+    { num: 1, title: 'DIREITO À SAÚDE E TRÂNSITO' },
+    { num: 2, title: 'DIREITO AMBIENTAL URBANO E MOBILIDADE SUSTENTÁVEL' },
+    { num: 3, title: 'PUBLICIDADE, INDÚSTRIA E MORTES' },
+    { num: 4, title: 'O JOVEM COMO SUJEITO DE DIREITOS NO TRÂNSITO' },
+  ];
+
+  for (const b of bimesters8) {
+    const module = await prisma.module.create({
+      data: {
+        volumeId: vol8.id,
+        bimonthly: b.num,
+        title: b.title,
+      },
+    });
+
+    // Populate Bimester 3 with "Contrapropaganda" Mission for Gamification
+    if (b.num === 3) {
+      const tasks = [
+        { order: 1, title: 'Vendendo Sonhos', type: 'QUIZ', desc: 'Análise de comerciais de automóveis.' },
+        { order: 2, title: 'O Jogo Político', type: 'INFO', desc: 'O que é o lobby da indústria automobilística?' },
+        { order: 8, title: 'A Contrapropaganda', type: 'INTERACTIVE', desc: 'Desconstrua a mensagem da velocidade e publique sua contrapropaganda.' },
+      ];
+      for (const t of tasks) {
+        await prisma.mission.create({
+          data: {
+            moduleId: module.id,
+            order: t.order,
+            title: t.title,
+            type: t.type,
+            description: t.desc,
+            xpReward: t.order === 8 ? 100 : 20,
+            coinsReward: t.order === 8 ? 50 : 10,
+            contentData: JSON.stringify({
+              videoRequired: t.order === 8 ? true : false,
+            }),
+          }
+        });
+      }
+    }
+  }
+
   console.log('Seed completed successfully.');
 }
 
 main()
   .catch((e) => {
     console.error(e);
-    process.exit(1);
+    throw e;
   })
   .finally(async () => {
     await prisma.$disconnect();

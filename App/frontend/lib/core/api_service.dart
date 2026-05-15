@@ -4,11 +4,21 @@ import 'models.dart';
 class ApiService {
   final Dio _dio = Dio(
     BaseOptions(
-      baseUrl: 'http://10.0.2.2:3000', // Default IP for Android Emulator to access localhost
+      // TODO: Altere para a URL do seu backend hospedado na Vercel
+      // Exemplo: 'https://transito-seguro-backend.vercel.app/api'
+      baseUrl: const String.fromEnvironment('API_URL', defaultValue: 'http://10.0.2.2:3000/api'),
       connectTimeout: const Duration(seconds: 5),
       receiveTimeout: const Duration(seconds: 3),
     ),
   );
+
+  void setToken(String? token) {
+    if (token != null) {
+      _dio.options.headers['Authorization'] = 'Bearer $token';
+    } else {
+      _dio.options.headers.remove('Authorization');
+    }
+  }
 
   Future<List<Volume>> getVolumes() async {
     try {
