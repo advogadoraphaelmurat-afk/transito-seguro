@@ -14,6 +14,7 @@ class LoginScreen extends ConsumerStatefulWidget {
 class _LoginScreenState extends ConsumerState<LoginScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  String? _selectedCharacter; // Track which character is selected
 
   void _handleLogin() async {
     final notifier = ref.read(authProvider.notifier);
@@ -140,17 +141,55 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     Color color,
     IconData icon,
   ) {
-    return Column(
-      children: [
-        CircleAvatar(
-          radius: 40,
-          backgroundColor: color,
-          child: Icon(icon, size: 40, color: Colors.white),
+    final isSelected = _selectedCharacter == name;
+
+    return GestureDetector(
+      onTap: () {
+        setState(() {
+          _selectedCharacter = name;
+        });
+      },
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 250),
+        curve: Curves.easeInOut,
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: isSelected ? color.withOpacity(0.2) : Colors.transparent,
+          border: Border.all(
+            color: isSelected ? color : Colors.transparent,
+            width: 2.5,
+          ),
         ),
-        const SizedBox(height: 8),
-        Text(name, style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
-        Text(years, style: const TextStyle(fontSize: 12, color: Colors.white70)),
-      ],
+        child: Column(
+          children: [
+            AnimatedScale(
+              scale: isSelected ? 1.15 : 1.0,
+              duration: const Duration(milliseconds: 250),
+              child: CircleAvatar(
+                radius: 40,
+                backgroundColor: color,
+                child: Icon(icon, size: 40, color: Colors.white),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              name,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: isSelected ? color : Colors.white,
+                fontSize: isSelected ? 18 : 16,
+              ),
+            ),
+            Text(years, style: const TextStyle(fontSize: 12, color: Colors.white70)),
+            if (isSelected)
+              Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: Icon(Icons.check_circle, color: color, size: 22),
+              ),
+          ],
+        ),
+      ),
     );
   }
 }
