@@ -22,13 +22,8 @@ else
 fi
 
 # ===== PÓS-BUILD: Substituir favicon no output final =====
-echo "Substituindo favicon por versão transparente..."
-cp ../../pitch-deck/icons/logo/logo_multi.ico ./build/web/favicon.ico
-# Remover o favicon.png padrão do Flutter (fundo branco)
-rm -f ./build/web/favicon.png
-# Atualizar index.html no output final para usar o .ico
-sed -i 's|<link rel="icon" type="image/png" href="favicon.png"/>|<link rel="icon" type="image/x-icon" href="favicon.ico"/>|g' ./build/web/index.html
-# Fallback: caso o formato do link seja diferente
-sed -i 's/favicon\.png/favicon.ico/g' ./build/web/index.html
+echo "Substituindo favicon por versão com fundo transparente..."
+# Sobrescrever o favicon.png padrão (fundo branco) com o nosso (fundo transparente)
+cp assets/images/favicon.png ./build/web/favicon.png
 
-echo "Build concluído com favicon transparente!"
+echo "Build concluído!"
