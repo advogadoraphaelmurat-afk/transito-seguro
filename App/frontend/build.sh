@@ -14,6 +14,12 @@ echo "Compilando Flutter Web..."
 flutter config --enable-web
 flutter create . --platforms web
 
+# Substituir o favicon padrão por um transparente (SVG) do projeto
+cp ../web/public/favicon.svg ./web/favicon.svg
+# Atualizar o index.html para apontar para o SVG
+sed -i 's/favicon.png/favicon.svg/g' ./web/index.html
+sed -i 's/image\/png/image\/svg+xml/g' ./web/index.html
+
 if [ -z "$API_URL" ]; then
   flutter build web --release
 else
