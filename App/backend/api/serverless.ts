@@ -1,14 +1,11 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from '../src/app.module';
-import { ExpressAdapter } from '@nestjs/platform-express';
-import express from 'express';
 
-let cachedServer: express.Express;
+let cachedServer: any;
 
-async function bootstrapServer(): Promise<express.Express> {
+async function bootstrapServer() {
   if (!cachedServer) {
-    const expressApp = express();
-    const app = await NestFactory.create(AppModule, new ExpressAdapter(expressApp));
+    const app = await NestFactory.create(AppModule);
     
     // CORS: aceita requisições dos frontends hospedados no Render/Vercel
     app.enableCors({
@@ -19,7 +16,7 @@ async function bootstrapServer(): Promise<express.Express> {
     app.setGlobalPrefix('api');
     
     await app.init();
-    cachedServer = expressApp;
+    cachedServer = app.getHttpAdapter().getInstance();
   }
   return cachedServer;
 }
