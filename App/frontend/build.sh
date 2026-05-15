@@ -11,6 +11,9 @@ echo "Rodando pub get..."
 flutter pub get
 
 echo "Compilando Flutter Web..."
+flutter config --enable-web
+flutter create . --platforms web
+
 if [ -z "$API_URL" ]; then
   flutter build web --release
 else
