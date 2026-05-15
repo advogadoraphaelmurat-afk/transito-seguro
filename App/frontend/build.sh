@@ -10,20 +10,25 @@ export PATH="$PATH:`pwd`/flutter/bin"
 echo "Rodando pub get..."
 flutter pub get
 
-echo "Compilando Flutter Web..."
+echo "Configurando Flutter Web..."
 flutter config --enable-web
 flutter create . --platforms web
 
-# Substituir o favicon padrão por um transparente (.ico) da pasta pitch-deck
-cp ../../pitch-deck/icons/logo/logo_multi.ico ./web/favicon.ico
-# Atualizar o index.html para apontar para o .ico
-sed -i 's/favicon.png/favicon.ico/g' ./web/index.html
-sed -i 's/image\/png/image\/x-icon/g' ./web/index.html
-
+echo "Compilando Flutter Web..."
 if [ -z "$API_URL" ]; then
   flutter build web --release
 else
   flutter build web --release --dart-define=API_URL=$API_URL
 fi
 
-# O resultado ficará na pasta build/web
+# ===== PÓS-BUILD: Substituir favicon no output final =====
+echo "Substituindo favicon por versão transparente..."
+cp ../../pitch-deck/icons/logo/logo_multi.ico ./build/web/favicon.ico
+# Remover o favicon.png padrão do Flutter (fundo branco)
+rm -f ./build/web/favicon.png
+# Atualizar index.html no output final para usar o .ico
+sed -i 's|<link rel="icon" type="image/png" href="favicon.png"/>|<link rel="icon" type="image/x-icon" href="favicon.ico"/>|g' ./build/web/index.html
+# Fallback: caso o formato do link seja diferente
+sed -i 's/favicon\.png/favicon.ico/g' ./build/web/index.html
+
+echo "Build concluído com favicon transparente!"
