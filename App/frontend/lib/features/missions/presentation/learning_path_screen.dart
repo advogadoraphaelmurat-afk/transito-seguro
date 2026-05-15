@@ -12,8 +12,8 @@ class LearningPathScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final user = ref.watch(authProvider).user;
-    final primaryColor = user?.currentGrade != null && user!.currentGrade < 6 
+    final authState = ref.watch(authProvider);
+    final primaryColor = authState.currentGrade != null && authState.currentGrade! < 6 
         ? Colors.orange 
         : Colors.green;
 

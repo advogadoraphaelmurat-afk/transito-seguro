@@ -155,7 +155,7 @@ class ProfileScreen extends ConsumerWidget {
       decoration: BoxDecoration(
         color: Colors.white10,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white05),
+        border: Border.all(color: Colors.white10),
       ),
       child: Row(
         children: [

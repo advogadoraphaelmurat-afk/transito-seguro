@@ -56,6 +56,7 @@ class AuthNotifier extends StateNotifier<AuthState> {
     final role = prefs.getString('role');
 
     if (token != null) {
+      _apiService.setToken(token);
       state = state.copyWith(token: token, userName: name, currentGrade: grade, role: role);
     }
   }
@@ -73,6 +74,8 @@ class AuthNotifier extends StateNotifier<AuthState> {
       await prefs.setInt('currentGrade', user['currentGrade'] ?? 0);
       await prefs.setString('role', user['role']);
 
+      _apiService.setToken(token);
+
       state = state.copyWith(
         token: token,
         userName: user['name'],
@@ -88,6 +91,7 @@ class AuthNotifier extends StateNotifier<AuthState> {
   Future<void> logout() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.clear();
+    _apiService.setToken(null);
     state = AuthState();
   }
 }

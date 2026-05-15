@@ -20,7 +20,7 @@ class MissionRouter extends ConsumerWidget {
     final missionTitle = mission.title.toLowerCase();
 
     if (missionTitle.contains('rafael') || missionTitle.contains('ponto cego')) {
-      return RafaelMissionScreen(mission: mission);
+      return RafaelInvestigationScreen(mission: mission);
     } else if (missionTitle.contains('faixa') || missionTitle.contains('atravessar')) {
       return CrosswalkMissionScreen(mission: mission);
     } else if (missionTitle.contains('física') || missionTitle.contains('velocidade')) {

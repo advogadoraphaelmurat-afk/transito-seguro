@@ -46,12 +46,12 @@ class CidadeVivaApp extends StatelessWidget {
           centerTitle: true,
           titleTextStyle: GoogleFonts.outfit(fontSize: 20, fontWeight: FontWeight.bold),
         ),
-        cardTheme: CardTheme(
-          color: const Color(0xFF1E293B),
+        cardTheme: const CardThemeData(
+          color: Color(0xFF1E293B),
           elevation: 0,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(24),
-            side: BorderSide(color: Colors.white.withOpacity(0.05)),
+            borderRadius: BorderRadius.all(Radius.circular(24)),
+            side: BorderSide(color: Colors.white10),
           ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -140,8 +140,8 @@ class HomeScreen extends ConsumerWidget {
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 16),
-            ...volumes.map((volume) {
-              return Card(
+            for (var volume in volumes)
+              Card(
               margin: const EdgeInsets.only(bottom: 16),
               elevation: 4,
               shape: RoundedRectangleBorder(
@@ -188,8 +188,8 @@ class HomeScreen extends ConsumerWidget {
                     );
                   }
                 },
-              );
-            }).toList(),
+              ),
+            ),
           ],
         ),
 
