@@ -21,13 +21,7 @@ else
   flutter build web --release --dart-define=API_URL=$API_URL
 fi
 
-# ===== PÓS-BUILD: Substituir favicon =====
-echo "Substituindo favicon..."
-# Copiar o .ico transparente real para o output
-cp assets/favicon.ico ./build/web/favicon.ico
-# Atualizar referência no index.html final
-sed -i 's|<link rel="icon" type="image/png" href="favicon.png"/>|<link rel="icon" type="image/x-icon" href="favicon.ico"/>|g' ./build/web/index.html
-# Remover o favicon.png branco do Flutter
-rm -f ./build/web/favicon.png
+# Sobrescrever o favicon.png branco do Flutter pelo nosso PNG transparente
+cp assets/favicon.png ./build/web/favicon.png
 
 echo "Build concluído!"
